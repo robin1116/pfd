@@ -1,0 +1,69 @@
+{
+  "modified": "Wed Jun 26 2024 11:23:15 GMT+0900 (한국 표준시)",
+  "dataBindings": [
+    {
+      "attr": "expend",
+      "valueType": "Boolean",
+      "defaultValue": false
+    },
+    {
+      "attr": "minW",
+      "valueType": "String",
+      "defaultValue": "100px"
+    },
+    {
+      "attr": "maxW",
+      "valueType": "String",
+      "defaultValue": "500px"
+    },
+    {
+      "attr": "minH",
+      "valueType": "String",
+      "defaultValue": "100px"
+    },
+    {
+      "attr": "maxH",
+      "valueType": "String",
+      "defaultValue": "600px"
+    },
+    {
+      "attr": "css",
+      "valueType": "Multiline",
+      "defaultValue": "\tz-index:-1;\n\theight:100%;\n\tbackground: rgba( 0, 0, 0, 0 );\n\tbox-shadow: 0 15px 25px rgba( 0, 0, 0, .1 );\n\tbackdrop-filter: blur( 3.5px );\n\t-webkit-backdrop-filter: blur( 10.0px );\n\tborder-radius: 10px;\n\tborder: 1px solid rgba( 255, 255, 255, 0.18 );"
+    }
+  ],
+  "snapshotURL": "symbols/basic/snapshot_image.json",
+  "renderHTML": "__ht__function(data, gv, cache) {function handler(event) {\r\n    data.a('expend',!data.a('expend'));\r\n    if (event.type === 'mouseenter') {\r\n                ht.Default.animate(div)              \r\n                .duration(500)\r\n                .set('box-shadow', '10px 10px 15px rgba(0,0,0,0.0)')\r\n                .end();\r\n    } \r\n    if (event.type === 'mouseout') {\r\n        ht.Default.animate(div)\r\n                .duration(500)\r\n                .set('box-shadow', '0 15px 25px rgba( 0, 0, 0, .0 )')                \r\n                .end();\r\n    }\r\n};\r\nif (!cache.htmlView) {\r\n    var div = cache.htmlView = document.createElement('div');\r\n    data.div = div;\r\n    div.classList.add('glassCard');\r\n    div.style.boxShadow ='0 15px 25px rgba( 0, 0, 0, .0 )';\r\n    div.style.cssText = data.a('css');\r\n    div.onmouseenter = div.onmouseout = handler;\r\n    div.layoutHTML = function () {\r\n        gv.layoutHTML(data, div);\r\n        if (data.a('div.debug')) console.log('Div is layout');\r\n    };\r\n}\r\nreturn cache.htmlView;}",
+  "width": 100,
+  "height": 100,
+  "interactive": true,
+  "disableSelectedBorder": true,
+  "pixelPerfect": false,
+  "comps": [
+    {
+      "type": "roundRect",
+      "background": "rgba(255,255,255,0)",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@edgeColor",
+        "value": "rgba(255,255,255,0.35)"
+      },
+      "border3dColor": null,
+      "borderCap": "square",
+      "cornerRadius": 0,
+      "visible": false,
+      "pixelPerfect": true,
+      "shadow": true,
+      "shadowColor": {
+        "func": "attr@edgeColor",
+        "value": "rgb(255,255,255)"
+      },
+      "rect": [
+        0,
+        0,
+        100,
+        100
+      ]
+    }
+  ]
+}

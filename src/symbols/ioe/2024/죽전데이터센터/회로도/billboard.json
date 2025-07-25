@@ -1,0 +1,381 @@
+{
+  "modified": "Tue Jul 22 2025 10:46:12 GMT+0900 (한국 표준시)",
+  "dataBindings": [
+    {
+      "attr": "cornerRadius",
+      "valueType": "PositiveNumber",
+      "defaultValue": 0
+    },
+    {
+      "attr": "title",
+      "valueType": "String"
+    },
+    {
+      "attr": "columnModel",
+      "valueType": "DataModel"
+    }
+  ],
+  "width": 240,
+  "height": 150,
+  "comps": [
+    {
+      "type": "roundRect",
+      "background": "#D8D8D8",
+      "borderWidth": 1,
+      "borderColor": "#979797",
+      "gradientPack": [
+        "linear",
+        0.5,
+        0,
+        0.5,
+        1,
+        0,
+        "rgb(33,33,33)",
+        1,
+        "rgb(0,0,0)"
+      ],
+      "borderGradientPack": [
+        "linear",
+        0.5,
+        0,
+        0.5,
+        1,
+        0,
+        "rgb(179,179,179)",
+        1,
+        "#979797"
+      ],
+      "cornerRadius": {
+        "func": "attr@cornerRadius",
+        "value": 1
+      },
+      "gray": true,
+      "rect": [
+        2.45913,
+        0,
+        235,
+        150
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgba(23,12,0,0.15)",
+      "borderColor": "#979797",
+      "gradient": "linear.south",
+      "gradientColor": "rgba(247,247,247,0)",
+      "cornerRadius": 1,
+      "rect": [
+        2.45913,
+        0,
+        235,
+        32.25177
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@title",
+        "value": "SPARE"
+      },
+      "align": "center",
+      "color": "rgb(255,255,255)",
+      "font": "bold  20px Pretendard Variable",
+      "shadow": true,
+      "shadowColor": "rgba(0,0,0,0.5)",
+      "shadowBlur": 16,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rect": [
+        93.25593,
+        6.75592,
+        53.40641,
+        18.46965
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(216,216,216,0.7)",
+      "borderColor": "#979797",
+      "visible": false,
+      "shadow": true,
+      "shadowColor": "rgba(0,0,0,0.5)",
+      "shadowOffsetX": 0,
+      "shadowOffsetY": -1,
+      "displayName": "row",
+      "rect": [
+        2.96,
+        63.17071,
+        234,
+        0.51305
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(216,216,216,0.7)",
+      "borderColor": "#979797",
+      "shadow": true,
+      "shadowColor": "rgba(0,0,0,0.5)",
+      "shadowOffsetX": 0,
+      "shadowOffsetY": -1,
+      "displayName": "row",
+      "rect": [
+        2.96,
+        94.08965,
+        234,
+        0.51305
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(216,216,216,0.7)",
+      "borderColor": "#979797",
+      "shadow": true,
+      "shadowColor": "rgba(0,0,0,0.5)",
+      "shadowOffsetX": 0,
+      "shadowOffsetY": -1,
+      "displayName": "row",
+      "rect": [
+        2.96,
+        123.66097,
+        234,
+        0.51305
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(216,216,216,0.7)",
+      "borderColor": "#979797",
+      "visible": false,
+      "shadow": true,
+      "shadowColor": "rgba(0,0,0,0.5)",
+      "shadowOffsetX": 0,
+      "shadowOffsetY": -1,
+      "rotation": 1.5708,
+      "rect": [
+        16.13756,
+        77.96289,
+        90.89615,
+        0.5
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(216,216,216,0.7)",
+      "borderColor": "#979797",
+      "shadow": true,
+      "shadowColor": "rgba(0,0,0,0.5)",
+      "shadowOffsetX": 0,
+      "shadowOffsetY": -1,
+      "rotation": 1.5708,
+      "rect": [
+        107.55548,
+        136.45285,
+        25.30817,
+        0.7505
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(216,216,216,0.7)",
+      "borderColor": "#979797",
+      "borderWidthAbsolute": true,
+      "visible": false,
+      "shadow": true,
+      "shadowColor": "rgba(0,0,0,0.5)",
+      "shadowOffsetX": 0,
+      "shadowOffsetY": -1,
+      "rotation": 1.5708,
+      "rect": [
+        163.6305,
+        47.71776,
+        30.4059,
+        0.5
+      ]
+    },
+    {
+      "type": "text",
+      "text": "kV",
+      "align": "center",
+      "color": "rgba(247,247,247,0.9)",
+      "font": "17px Pretendard Variable",
+      "shadow": true,
+      "shadowColor": "rgba(0,0,0,0.5)",
+      "shadowBlur": 16,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rect": [
+        2.96,
+        69.65187,
+        58.37563,
+        18.46965
+      ]
+    },
+    {
+      "type": "text",
+      "text": "A",
+      "align": "center",
+      "color": "rgba(247,247,247,0.9)",
+      "font": "17px Pretendard Variable",
+      "shadow": true,
+      "shadowColor": "rgba(0,0,0,0.5)",
+      "shadowBlur": 16,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rect": [
+        2.96,
+        100.57081,
+        58.37563,
+        18.46965
+      ]
+    },
+    {
+      "type": "text",
+      "text": "0",
+      "align": "right",
+      "color": "rgba(247,247,247,0.9)",
+      "font": "16px Pretendard Variable",
+      "shadow": true,
+      "shadowColor": "rgba(0,0,0,0.5)",
+      "shadowBlur": 16,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rect": [
+        72.21492,
+        128.79452,
+        21.29236,
+        18.46965
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Pf",
+      "align": "right",
+      "color": "rgba(247,247,247,0.9)",
+      "font": "16px Pretendard Variable",
+      "shadow": true,
+      "shadowColor": "rgba(0,0,0,0.5)",
+      "shadowBlur": 16,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rect": [
+        93.25593,
+        128.79452,
+        21.29236,
+        18.46965
+      ]
+    },
+    {
+      "type": "text",
+      "text": "0",
+      "align": "right",
+      "color": "rgb(247,247,247)",
+      "font": "16px Pretendard Variable",
+      "shadow": true,
+      "shadowColor": "rgba(0,0,0,0.5)",
+      "shadowBlur": 16,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rect": [
+        184.94245,
+        128.79452,
+        21.29236,
+        18.46965
+      ]
+    },
+    {
+      "type": "text",
+      "text": "kW",
+      "align": "right",
+      "color": "rgba(247,247,247,0.8)",
+      "font": "16px Pretendard Variable",
+      "shadow": true,
+      "shadowColor": "rgba(0,0,0,0.5)",
+      "shadowBlur": 16,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rect": [
+        206.62584,
+        128.79452,
+        27.06968,
+        18.46965
+      ]
+    },
+    {
+      "type": "ht.drawing.table",
+      "pixelPerfect": true,
+      "displayName": "table",
+      "rect": [
+        2.96,
+        32.25177,
+        234.49913,
+        91.92225
+      ],
+      "onClick": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.tableInteractor.onClick.apply(this, arguments);\n}",
+      "onDoubleClick": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.tableInteractor.onDoubleClick.apply(this, arguments);\n}",
+      "onContextMenu": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.tableInteractor.onContextMenu.apply(this, arguments);\n}",
+      "onDown": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.tableInteractor.onDown.apply(this, arguments);\n}",
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.tableInteractor.onUp.apply(this, arguments);\n}",
+      "onMove": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.tableInteractor.onMove.apply(this, arguments);\n}",
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.tableInteractor.onEnter.apply(this, arguments);\n}",
+      "onHover": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.tableInteractor.onHover.apply(this, arguments);\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.tableInteractor.onLeave.apply(this, arguments);\n}",
+      "onBeginDrag": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.tableInteractor.onBeginDrag.apply(this, arguments);\n}",
+      "onDrag": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.tableInteractor.onDrag.apply(this, arguments);\n}",
+      "onEndDrag": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.tableInteractor.onEndDrag.apply(this, arguments);\n}",
+      "onScroll": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.tableInteractor.onScroll.apply(this, arguments);\n}",
+      "columnModel": {
+        "func": "attr@columnModel",
+        "value": "__ht__dataModel{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":510382,\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":510383,\"p\":{\"name\":\"r\",\"displayName\":\"R\"},\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":510384,\"p\":{\"name\":\"s\",\"displayName\":\"S\"},\"s\":{\"visible\":true,\"width\":\"0.1\",\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":510385,\"p\":{\"name\":\"t\",\"displayName\":\"T\"},\"s\":{\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}}]}"
+      },
+      "dataModel": "__ht__dataModel{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":510392,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}},{\"c\":\"ht.Data\",\"i\":510393,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}}]}",
+      "columnModelUseTheme": true,
+      "headRowHeight": 32,
+      "headBackground": [
+        "linear",
+        0.5,
+        0,
+        0.5,
+        1,
+        0,
+        "rgba(194,194,194,0.20)",
+        0.9087,
+        "rgba(255,255,255,0.5)",
+        1,
+        "rgba(0,0,0,0.20)"
+      ],
+      "columnMovable": false,
+      "columnResizeLineColor": "rgba(204,221,255,0.04)",
+      "rowHeight": 30,
+      "labelStyle": {
+        "color": "rgb(247,247,247)",
+        "headLabelColor": "rgb(164,190,222)",
+        "font": "14px arial, sans-serif",
+        "headLabelFont": "14px arial, sans-serif"
+      },
+      "columnLineStyle": {
+        "width": 0.8,
+        "color": "rgba(216,216,216,0.4)",
+        "cap": "butt"
+      },
+      "rowLineStyle": {
+        "width": 0,
+        "color": "rgba(216,216,216,0.4)",
+        "cap": "butt",
+        "headBottomLineColor": "rgba(255,240,240,0.00)"
+      },
+      "scrollbarStyle": {
+        "scrollbarColor": "rgb(35,121,207)",
+        "scrollbarGap": 0,
+        "scrollbarWidth": 4,
+        "scrollbarWidthAbsolute": false,
+        "scrollSpeed": 1,
+        "scrollable": false,
+        "pannable": true,
+        "autoHideScrollbar": false,
+        "momentumScroll": true,
+        "stopPropagation": false,
+        "resetWhenClear": false
+      }
+    }
+  ]
+}

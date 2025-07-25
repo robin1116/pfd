@@ -1,0 +1,226 @@
+{
+  "modified": "Tue Jul 22 2025 11:43:27 GMT+0900 (한국 표준시)",
+  "dataBindings": [
+    {
+      "attr": "lineColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(255,255,255)"
+    },
+    {
+      "attr": "powerLevel",
+      "valueType": "PowerLevel",
+      "defaultValue": "red",
+      "name": "powerLevel"
+    },
+    {
+      "attr": "powerOffColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(128,128,128)",
+      "name": "powerOffColor"
+    },
+    {
+      "attr": "powerOn",
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "name": "powerOn"
+    },
+    {
+      "attr": "enabled",
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "name": "enabled"
+    },
+    {
+      "attr": "state",
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "name": "state"
+    }
+  ],
+  "width": 40,
+  "height": 72,
+  "comps": [
+    {
+      "type": "circle",
+      "background": {
+        "func": "attr@lineColor",
+        "value": "rgb(255,255,255)"
+      },
+      "borderWidth": 2,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "rgb(0,0,0)"
+      },
+      "rect": [
+        6.55097,
+        53.06892,
+        5,
+        5
+      ]
+    },
+    {
+      "type": "circle",
+      "background": {
+        "func": "attr@lineColor",
+        "value": "rgb(255,255,255)"
+      },
+      "borderWidth": 2,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "rgb(0,0,0)"
+      },
+      "rect": [
+        6.55097,
+        13.93108,
+        5,
+        5
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgb(250,0,0)",
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "rgb(0,0,0)"
+      },
+      "cornerRadius": 1,
+      "visible": {
+        "func": "__ht__function(data, view) {\nreturn !data.a('enabled') && data.a('powerOn')\n}",
+        "value": false
+      },
+      "displayName": "Invalid (hidden)",
+      "anchorX": 0,
+      "anchorY": 1,
+      "rotation": 0.7854,
+      "rect": [
+        19.52945,
+        23.03711,
+        2,
+        10.64462
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 2,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "rgb(0,0,0)"
+      },
+      "borderCap": "round",
+      "visible": {
+        "func": "attr@enabled"
+      },
+      "anchorX": 0,
+      "anchorY": 1,
+      "rotation": {
+        "func": "__ht__function(data, view) {\nif (data.a('state')) {\n    return 0;\n}\nreturn Math.PI/180*30;\n}",
+        "value": 0.5236
+      },
+      "points": [
+        11.80097,
+        55.56892,
+        11.80097,
+        16.43108
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgb(250,0,0)",
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "rgb(0,0,0)"
+      },
+      "cornerRadius": 1,
+      "visible": {
+        "func": "__ht__function(data, view) {\nreturn !data.a('enabled')\n}",
+        "value": false
+      },
+      "displayName": "Invalid (hidden)",
+      "anchorX": 0,
+      "anchorY": 1,
+      "rotation": 5.49779,
+      "rect": [
+        27.05633,
+        24.45132,
+        2,
+        10.64462
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1.5,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "rgb(0,0,0)"
+      },
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "rotation": 2.35619,
+      "points": [
+        1.05097,
+        1.88564,
+        1.05097,
+        17.88564,
+        17.05097,
+        17.88564
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1.5,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "rgb(0,0,0)"
+      },
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "rotation": 2.35619,
+      "points": [
+        1.05097,
+        4.85402,
+        1.05097,
+        20.85402,
+        17.05097,
+        20.85402
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1.5,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "rgb(0,0,0)"
+      },
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "rotation": -0.7854,
+      "points": [
+        1.05097,
+        53.0052,
+        1.05097,
+        69.0052,
+        17.05097,
+        69.0052
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1.5,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "rgb(0,0,0)"
+      },
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "rotation": -0.7854,
+      "points": [
+        1.05097,
+        49.43501,
+        1.05097,
+        65.43501,
+        17.05097,
+        65.43501
+      ]
+    }
+  ]
+}

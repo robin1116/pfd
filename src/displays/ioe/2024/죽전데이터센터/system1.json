@@ -1,0 +1,7106 @@
+{
+  "v": "8.0.6",
+  "p": {
+    "layers": [
+      {
+        "name": "0",
+        "visible": true,
+        "selectable": true,
+        "movable": true,
+        "editable": true
+      }
+    ],
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "connectActionType": "host",
+    "width": 1920,
+    "height": 1080,
+    "pannable": false,
+    "zoomable": false
+  },
+  "d": [
+    {
+      "c": "ht.Block",
+      "i": 2671703,
+      "p": {
+        "displayName": "bg",
+        "position": {
+          "x": 960,
+          "y": 540
+        },
+        "anchor": {
+          "x": 0.50022,
+          "y": 0.5
+        },
+        "width": 1920.86241,
+        "height": 1080
+      },
+      "s": {
+        "2d.movable": false,
+        "2d.editable": false,
+        "2d.selectable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671704,
+      "p": {
+        "displayName": "bg",
+        "parent": {
+          "__i": 2671703
+        },
+        "dataBindings": {
+          "p": {}
+        },
+        "host": {
+          "__i": 2671705
+        },
+        "position": {
+          "x": 960,
+          "y": 31.504
+        },
+        "width": 1920,
+        "height": 62.92811,
+        "tall": 20
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgb(0,0,0)",
+        "shape.border.color": "#979797",
+        "shape.foreground.clip.percentage": 1,
+        "fullscreen.gap": 0,
+        "fullscreen.lock": "v",
+        "shape.gradient.color": "rgb(110,110,110)",
+        "opacity": 1,
+        "select.width": 0,
+        "shape.border.width": -1,
+        "shape.gradient": "linear.south",
+        "2d.selectable": false,
+        "layout.v": "top",
+        "layout.h": "leftright",
+        "shape.gradient.pack": [
+          "linear",
+          0.5,
+          1,
+          0.5,
+          0,
+          0,
+          "rgba(108,105,105,0)",
+          1,
+          "rgba(133,133,133,0.5)"
+        ],
+        "shadow2": true,
+        "shadow2.color": "rgba(74,74,74,0.50)",
+        "shadow2.blur": 15,
+        "shadow2.offset.x": 0,
+        "shadow2.offset.y": 0,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671705,
+      "p": {
+        "displayName": "bg",
+        "parent": {
+          "__i": 2671703
+        },
+        "dataBindings": {
+          "p": {}
+        },
+        "position": {
+          "x": 960,
+          "y": 540.01997
+        },
+        "width": 1920,
+        "height": 1079.96006,
+        "tall": 20
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgb(0,0,0)",
+        "shape.border.color": "#979797",
+        "shape.foreground.clip.percentage": 1,
+        "fullscreen.gap": 0,
+        "fullscreen.lock": "v",
+        "shape.gradient.color": "rgb(110,110,110)",
+        "opacity": 1,
+        "select.width": 0,
+        "shape.border.width": -1,
+        "shape.gradient": "linear.south",
+        "2d.selectable": false,
+        "layout.v": "top",
+        "layout.h": "leftright",
+        "shape.gradient.pack": [
+          "linear",
+          0.5,
+          1,
+          0.5,
+          0,
+          0,
+          "rgba(108,105,105,0)",
+          1,
+          "rgba(133,133,133,0.5)"
+        ],
+        "shadow2.color": "rgba(74,74,74,0.50)",
+        "shadow2.blur": 15,
+        "shadow2.offset.x": 0,
+        "shadow2.offset.y": 0,
+        "fullscreen": "fill",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671706,
+      "p": {
+        "parent": {
+          "__i": 2671703
+        },
+        "host": {
+          "__i": 2671705
+        },
+        "position": {
+          "x": 959.13759,
+          "y": 540
+        },
+        "width": 1920,
+        "height": 1080
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgb(20,11,4)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 0,
+        "opacity": 1,
+        "layout.v": "bottom",
+        "layout.h": "leftright",
+        "2d.movable": false,
+        "select.width": 0,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 2671707,
+      "p": {
+        "displayName": "header",
+        "host": {
+          "__i": 2671705
+        },
+        "position": {
+          "x": 678.02437,
+          "y": 31.504
+        },
+        "anchor": {
+          "x": 0.49256,
+          "y": 0.30688
+        },
+        "width": 1343.95125,
+        "height": 81.46406
+      },
+      "s": {
+        "2d.selectable": false,
+        "layout.v": "top",
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 2671708,
+      "p": {
+        "parent": {
+          "__i": 2671707
+        },
+        "dataBindings": {
+          "s": {}
+        },
+        "host": {
+          "__i": 2671705
+        },
+        "position": {
+          "x": 110.88988,
+          "y": 26.504
+        },
+        "width": 189.68227,
+        "height": 31.19998,
+        "tall": 20
+      },
+      "s": {
+        "text": "Goyang Samsong IT Platform Center",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "bold 22px Pretendard Variable",
+        "text.shadow": true,
+        "text.shadow.color": "rgb(0,0,0)",
+        "text.shadow.blur": 8,
+        "text.shadow.offset.x": 0,
+        "text.shadow.offset.y": 0,
+        "layout.h": "left",
+        "layout.v": "top",
+        "select.width": 0,
+        "shadow2.color": "rgb(181,153,107)",
+        "shadow2": true,
+        "shadow2.offset.x": 0,
+        "shadow2.offset.y": 0,
+        "shadow2.blur": 3,
+        "text.gradient.pack": "rgb(255,255,255)",
+        "2d.visible": false,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671709,
+      "p": {
+        "displayName": "glass_html",
+        "parent": {
+          "__i": 2671707
+        },
+        "image": "symbols/ioe/2024/템플릿4/glass_html.json",
+        "host": {
+          "__i": 2671710
+        },
+        "position": {
+          "x": 959.13759,
+          "y": 24.304
+        },
+        "width": 793.15814,
+        "height": 35.59999,
+        "tall": 20
+      },
+      "s": {
+        "layout.v": "topbottom",
+        "layout.h": "leftright",
+        "select.width": 0,
+        "2d.movable": false
+      },
+      "a": {
+        "css": "\tz-index:-1;\t\n    height:100%;\t\n    background: rgba( 0, 0, 0, 0 );\t\n    box-shadow: 0 15px 25px rgba( 0, 0, 0, .5 );\n    backdrop-filter: blur( 16px );\t\n    -webkit-backdrop-filter: blur( 16px );\t\n    border-radius: 3px;\t\n    border: 0.5px solid rgba( 255, 255, 255, 0.15 );"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671710,
+      "p": {
+        "displayName": "mainMenu",
+        "parent": {
+          "__i": 2671707
+        },
+        "tag": "mainMenu",
+        "image": "ht.drawing.buttonGroup",
+        "host": {
+          "__i": 2671705
+        },
+        "position": {
+          "x": 960,
+          "y": 26.504
+        },
+        "width": 800,
+        "height": 40,
+        "tall": 20
+      },
+      "s": {
+        "layout.v": "top",
+        "layout.h": "center",
+        "2d.movable": false,
+        "select.width": 0,
+        "interactive": true
+      },
+      "a": {
+        "dataModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2671877,\"p\":{\"displayName\":\"SLD\"},\"s\":{\"checked\":false}},{\"c\":\"ht.Data\",\"i\":2671878,\"p\":{\"displayName\":\"154kV\"},\"s\":{\"checked\":false}},{\"c\":\"ht.Data\",\"i\":2671879,\"p\":{\"displayName\":\"GCP\"},\"s\":{\"checked\":false}},{\"c\":\"ht.Data\",\"i\":2671880,\"p\":{\"displayName\":\"HV\"},\"s\":{\"checked\":false}},{\"c\":\"ht.Data\",\"i\":2671881,\"p\":{\"displayName\":\"LV\"},\"s\":{\"checked\":true}},{\"c\":\"ht.Data\",\"i\":2671882,\"p\":{\"displayName\":\"UPS\"},\"s\":{\"checked\":false}},{\"c\":\"ht.Data\",\"i\":2671883,\"p\":{\"displayName\":\"STS\"},\"s\":{\"checked\":false}},{\"c\":\"ht.Data\",\"i\":2671884,\"p\":{\"displayName\":\"PDU\"},\"s\":{\"checked\":false}},{\"c\":\"ht.Data\",\"i\":2671885,\"p\":{\"displayName\":\"ALARM\"},\"s\":{\"checked\":false}}]}"
+        },
+        "checkMode": true,
+        "multiple": false,
+        "disabled": false,
+        "vertical": false,
+        "cancelableWhenSingle": false,
+        "selectStyle": {
+          "background": [
+            "linear",
+            0.5,
+            1,
+            0.50045,
+            0.00029,
+            0,
+            "rgb(112,103,145)",
+            1,
+            "rgb(41,39,61)"
+          ],
+          "scale": 1
+        },
+        "labelStyle": {
+          "visible": true,
+          "color": "rgb(255,255,255)",
+          "font": "16px Pretendard Variable",
+          "align": "center",
+          "shadowBlur": 6,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3
+        },
+        "padding": [
+          10,
+          29,
+          10,
+          25
+        ],
+        "hoverStyle": {
+          "borderColor": [
+            "linear",
+            0.5,
+            0,
+            0.5,
+            1,
+            0,
+            "rgba(112,103,145,0.5)",
+            1,
+            "rgba(227,212,255,0.4)"
+          ],
+          "background": [
+            "linear",
+            0.5,
+            0,
+            0.5,
+            1,
+            0,
+            "rgba(55,41,64,0.80)",
+            1,
+            "rgba(166,151,186,0.70)"
+          ],
+          "scale": 1,
+          "cursor": "pointer"
+        },
+        "activeStyle": {
+          "borderColor": "rgb(157,139,163)",
+          "background": [
+            "linear",
+            0.5,
+            0,
+            0.5,
+            0.925,
+            0,
+            "rgba(209,166,255,0.58)",
+            0.9913,
+            "rgba(185,138,255,0.53)"
+          ],
+          "scale": 1
+        },
+        "selectHoverStyle": {
+          "borderColor": [
+            "linear",
+            0.5,
+            0,
+            0.5,
+            1,
+            0,
+            "rgba(112,103,145,0.5)",
+            1,
+            "rgba(227,212,255,0.4)"
+          ],
+          "background": [
+            "linear",
+            0.5,
+            1,
+            0.50045,
+            0.00029,
+            0,
+            "rgb(41,39,61)",
+            1,
+            "rgb(112,103,145)"
+          ],
+          "scale": 1
+        },
+        "css": "\tz-index:-1;\t\n    height:100%;\t\n    background: rgba( 0, 0, 0, 0 );\t\n    box-shadow: 0 15px 25px rgba( 0, 0, 0, .5 );\n    backdrop-filter: blur( 16px );\t\n    -webkit-backdrop-filter: blur( 16px );\t\n    border-radius: 3px;\t\n    border: 0.5px solid rgba( 255, 255, 255, 0.15 );",
+        "background": [
+          "linear",
+          0.5,
+          0,
+          0.5,
+          1,
+          0,
+          "rgba(7,16,77,0.8)",
+          1,
+          "rgba(48,36,56,0.8)"
+        ],
+        "selectActiveStyle": {
+          "borderColor": [
+            "linear",
+            0.5,
+            0,
+            0.5,
+            1,
+            0,
+            "rgba(112,103,145,0.65)",
+            1,
+            "rgba(227,212,255,0.6)"
+          ],
+          "background": [
+            "linear",
+            0.5,
+            1,
+            0.50045,
+            0.00029,
+            0,
+            "rgb(41,39,61)",
+            1,
+            "rgb(112,103,145)"
+          ],
+          "scale": 1
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671711,
+      "p": {
+        "displayName": "subMenu",
+        "parent": {
+          "__i": 2671707
+        },
+        "tag": "subMenu",
+        "image": "ht.drawing.buttonGroup",
+        "host": {
+          "__i": 2671705
+        },
+        "position": {
+          "x": 953.55369,
+          "y": 71.96806
+        },
+        "scale": {
+          "x": 0.8,
+          "y": 0.8
+        },
+        "width": 280,
+        "height": 40,
+        "tall": 20
+      },
+      "s": {
+        "layout.v": "top",
+        "layout.h": "center",
+        "select.width": 0,
+        "2d.movable": false,
+        "2d.editable": false,
+        "interactive": true
+      },
+      "a": {
+        "dataModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2671886,\"p\":{\"displayName\":\"LV_1\"},\"s\":{\"checked\":true}},{\"c\":\"ht.Data\",\"i\":2671887,\"p\":{\"displayName\":\"LV_2\"},\"s\":{\"checked\":false}},{\"c\":\"ht.Data\",\"i\":2671888,\"p\":{\"displayName\":\"LV_3\"},\"s\":{\"checked\":false}}]}"
+        },
+        "checkMode": true,
+        "multiple": false,
+        "disabled": false,
+        "vertical": false,
+        "cancelableWhenSingle": false,
+        "selectStyle": {
+          "background": [
+            "linear",
+            0.5,
+            1,
+            0.50045,
+            0.00029,
+            0,
+            "rgb(112,103,145)",
+            1,
+            "rgb(41,39,61)"
+          ],
+          "scale": 1
+        },
+        "labelStyle": {
+          "visible": true,
+          "color": "rgb(255,255,255)",
+          "font": "17px Pretendard Variable",
+          "align": "center",
+          "shadowBlur": 6,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 3
+        },
+        "padding": [
+          10,
+          35,
+          15,
+          25
+        ],
+        "hoverStyle": {
+          "borderColor": [
+            "linear",
+            0.5,
+            0,
+            0.5,
+            1,
+            0,
+            "rgba(112,103,145,0.5)",
+            1,
+            "rgba(227,212,255,0.4)"
+          ],
+          "background": [
+            "linear",
+            0.5,
+            0,
+            0.5,
+            1,
+            0,
+            "rgba(55,41,64,0.80)",
+            1,
+            "rgba(166,151,186,0.70)"
+          ],
+          "scale": 1,
+          "cursor": "pointer"
+        },
+        "activeStyle": {
+          "borderColor": [
+            "linear",
+            0.5,
+            0,
+            0.5,
+            1,
+            0,
+            "rgba(112,103,145,0.5)",
+            1,
+            "rgba(227,212,255,0.4)"
+          ],
+          "background": [
+            "linear",
+            0.5,
+            0,
+            0.5,
+            0.925,
+            0,
+            "rgba(213,166,255,0.58)",
+            0.9913,
+            "rgba(142,125,181,0.53)"
+          ],
+          "scale": 1
+        },
+        "selectHoverStyle": {
+          "borderColor": [
+            "linear",
+            0.5,
+            0,
+            0.5,
+            1,
+            0,
+            "rgba(112,103,145,0.5)",
+            1,
+            "rgba(227,212,255,0.4)"
+          ],
+          "background": [
+            "linear",
+            0.5,
+            1,
+            0.50045,
+            0.00029,
+            0,
+            "rgb(41,39,61)",
+            1,
+            "rgb(112,103,145)"
+          ],
+          "scale": 1
+        },
+        "css": "\tz-index:-1;\t\n    height:100%;\t\n    background: rgba( 0, 0, 0, 0 );\t\n    box-shadow: 0 15px 25px rgba( 0, 0, 0, .5 );\n    backdrop-filter: blur( 16px );\t\n    -webkit-backdrop-filter: blur( 16px );\t\n    border-radius: 3px;\t\n    border: 0.5px solid rgba( 255, 255, 255, 0.15 );",
+        "background": null,
+        "toolTipEnabled": false,
+        "selectActiveStyle": {
+          "borderColor": [
+            "linear",
+            0.5,
+            0,
+            0.5,
+            1,
+            0,
+            "rgba(112,103,145,0.65)",
+            1,
+            "rgba(227,212,255,0.6)"
+          ],
+          "background": [
+            "linear",
+            0.5,
+            1,
+            0.50045,
+            0.00029,
+            0,
+            "rgb(41,39,61)",
+            1,
+            "rgb(112,103,145)"
+          ],
+          "scale": 1
+        },
+        "disabledStyle": {
+          "labelColor": "rgba(156,187,255,0.30)",
+          "borderColor": "rgba(184,243,255,0.17)",
+          "background": [
+            "linear",
+            0.5,
+            0,
+            0.5,
+            0.925,
+            0,
+            "rgba(213,166,255,0.3)",
+            0.9913,
+            "rgba(202,193,224,0.53)"
+          ],
+          "scale": 1,
+          "triggerEvent": false,
+          "cursor": "not-allowed"
+        }
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 2671712,
+      "p": {
+        "position": {
+          "x": 185.61115,
+          "y": 385.14407
+        },
+        "anchor": {
+          "x": 0.11212,
+          "y": 0.45554
+        },
+        "width": 1655.46173,
+        "height": 484.41354
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 2671713,
+      "p": {
+        "displayName": "line",
+        "parent": {
+          "__i": 2671712
+        },
+        "position": {
+          "x": 70,
+          "y": 296.35845
+        },
+        "anchor": {
+          "x": 0.03057,
+          "y": 0.247
+        },
+        "width": 1635.46173,
+        "height": 468.16358
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671714,
+      "p": {
+        "parent": {
+          "__i": 2671713
+        },
+        "position": {
+          "x": 20,
+          "y": 206.09411
+        },
+        "width": 0,
+        "height": 50.74364,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 20,
+              "y": 180.72229
+            },
+            {
+              "x": 20,
+              "y": 231.46593
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "2d.movable": false,
+        "2d.selectable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671715,
+      "p": {
+        "parent": {
+          "__i": 2671713
+        },
+        "position": {
+          "x": 119.70418,
+          "y": 243.17172
+        },
+        "width": 0,
+        "height": 124.89888,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 119.70418,
+              "y": 180.72229
+            },
+            {
+              "x": 119.70418,
+              "y": 305.62116
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "2d.movable": false,
+        "2d.selectable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671716,
+      "p": {
+        "parent": {
+          "__i": 2671713
+        },
+        "position": {
+          "x": 20,
+          "y": 352.22226
+        },
+        "width": 0,
+        "height": 119.54471,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 20,
+              "y": 292.44991
+            },
+            {
+              "x": 20,
+              "y": 411.99462
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "2d.movable": false,
+        "2d.selectable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671717,
+      "p": {
+        "parent": {
+          "__i": 2671713
+        },
+        "position": {
+          "x": 70.03,
+          "y": 379.35892
+        },
+        "width": 99.94,
+        "height": 22.83121,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 120,
+              "y": 367.94332
+            },
+            {
+              "x": 120,
+              "y": 390.77453
+            },
+            {
+              "x": 20.06,
+              "y": 390.77453
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "2d.movable": false,
+        "2d.selectable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671718,
+      "p": {
+        "parent": {
+          "__i": 2671713
+        },
+        "position": {
+          "x": 20,
+          "y": 505.68326
+        },
+        "width": 0,
+        "height": 80.36526,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 20,
+              "y": 465.50063
+            },
+            {
+              "x": 20,
+              "y": 545.86589
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "2d.movable": false,
+        "2d.selectable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671719,
+      "p": {
+        "parent": {
+          "__i": 2671713
+        },
+        "position": {
+          "x": 837.73086,
+          "y": 571.99064
+        },
+        "width": 1635.46173,
+        "height": 153.79045,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 20,
+              "y": 610.0134
+            },
+            {
+              "x": 20,
+              "y": 640
+            },
+            {
+              "x": 279.84114,
+              "y": 640
+            },
+            {
+              "x": 279.84114,
+              "y": 520
+            },
+            {
+              "x": 361.30739,
+              "y": 520
+            },
+            {
+              "x": 361.30739,
+              "y": 520
+            },
+            {
+              "x": 377.1951,
+              "y": 495.09541
+            },
+            {
+              "x": 395.81256,
+              "y": 520
+            },
+            {
+              "x": 485.40582,
+              "y": 520
+            },
+            {
+              "x": 757.25377,
+              "y": 520
+            },
+            {
+              "x": 757.25377,
+              "y": 520
+            },
+            {
+              "x": 757.25377,
+              "y": 520
+            },
+            {
+              "x": 773.3592,
+              "y": 495.50314
+            },
+            {
+              "x": 791.81335,
+              "y": 520
+            },
+            {
+              "x": 895.50332,
+              "y": 520
+            },
+            {
+              "x": 1141.59989,
+              "y": 520
+            },
+            {
+              "x": 1141.59989,
+              "y": 520
+            },
+            {
+              "x": 1141.59989,
+              "y": 520
+            },
+            {
+              "x": 1157.39568,
+              "y": 495.16786
+            },
+            {
+              "x": 1175.97453,
+              "y": 520
+            },
+            {
+              "x": 1315.26941,
+              "y": 520
+            },
+            {
+              "x": 1535.90689,
+              "y": 520
+            },
+            {
+              "x": 1535.90689,
+              "y": 520
+            },
+            {
+              "x": 1535.90689,
+              "y": 520
+            },
+            {
+              "x": 1551.0803,
+              "y": 495.50314
+            },
+            {
+              "x": 1570.0191,
+              "y": 520
+            },
+            {
+              "x": 1624.46546,
+              "y": 520
+            },
+            {
+              "x": 1655.46173,
+              "y": 520
+            },
+            {
+              "x": 1655.46173,
+              "y": 520
+            },
+            {
+              "x": 1655.27963,
+              "y": 648.88586
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671720,
+      "p": {
+        "displayName": "dash",
+        "parent": {
+          "__i": 2671713
+        },
+        "position": {
+          "x": 70.04558,
+          "y": 290.27641
+        },
+        "width": 77.30167,
+        "height": 58.38029,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 31.39475,
+              "y": 261.08626
+            },
+            {
+              "x": 42.36427,
+              "y": 278.65809
+            },
+            {
+              "x": 95.13565,
+              "y": 278.65809
+            },
+            {
+              "x": 108.69642,
+              "y": 319.46655
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "border.width": 3,
+        "shape.border.pattern": [
+          10,
+          8
+        ],
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671721,
+      "p": {
+        "displayName": "start",
+        "parent": {
+          "__i": 2671712
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/arrow.json",
+        "position": {
+          "x": 119.58361,
+          "y": 174.47232
+        },
+        "width": 40,
+        "height": 20,
+        "tall": 20
+      },
+      "s": {
+        "shadow2.color": "rgb(122,122,122)",
+        "shadow2.blur": 5,
+        "shadow2.offset.x": 2,
+        "shadow2.offset.y": 2,
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "lineColor": "rgb(255,0,0)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671722,
+      "p": {
+        "displayName": "start",
+        "parent": {
+          "__i": 2671712
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/arrow.json",
+        "position": {
+          "x": 20,
+          "y": 174.47232
+        },
+        "width": 40,
+        "height": 20
+      },
+      "s": {
+        "shadow2.color": "rgb(122,122,122)",
+        "shadow2.blur": 5,
+        "shadow2.offset.x": 2,
+        "shadow2.offset.y": 2,
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "lineColor": "rgb(255,0,0)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671723,
+      "p": {
+        "displayName": "1",
+        "parent": {
+          "__i": 2671712
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/1.json",
+        "position": {
+          "x": 20,
+          "y": 426.94991
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 40,
+        "height": 40
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "lineColor": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671724,
+      "p": {
+        "displayName": "2",
+        "parent": {
+          "__i": 2671712
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/2.json",
+        "rotation": 3.14159,
+        "position": {
+          "x": 20,
+          "y": 450.73566
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 40,
+        "height": 40
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "lineColor": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671725,
+      "p": {
+        "displayName": "3 2",
+        "parent": {
+          "__i": 2671712
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/3 2.json",
+        "position": {
+          "x": 20,
+          "y": 261.94991
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 40,
+        "height": 70
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "borderColor": "rgb(255,255,255)",
+        "lineColor": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671726,
+      "p": {
+        "displayName": "3 2",
+        "parent": {
+          "__i": 2671712
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/3 2.json",
+        "position": {
+          "x": 119.58361,
+          "y": 336.94991
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 40,
+        "height": 70,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "borderColor": "rgb(255,255,255)",
+        "lineColor": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671727,
+      "p": {
+        "displayName": "text",
+        "parent": {
+          "__i": 2671712
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/state2.json",
+        "position": {
+          "x": 91.36055,
+          "y": 441.37665
+        },
+        "width": 100,
+        "height": 52
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "text": "A -TRU 2F-U1 3,000kVA",
+        "value1": "A-TRU",
+        "value2": "2F-U1",
+        "value3": "3,000kVA",
+        "font": "13px Pretendard Variable"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671728,
+      "p": {
+        "displayName": "state",
+        "parent": {
+          "__i": 2671712
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/state.json",
+        "position": {
+          "x": 78.36055,
+          "y": 261.94991
+        },
+        "width": 80,
+        "height": 30
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "text": "INTERLOCK",
+        "font": "13px Pretendard Variable"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671729,
+      "p": {
+        "displayName": "on",
+        "parent": {
+          "__i": 2671712
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/on 3.json",
+        "position": {
+          "x": 29.94801,
+          "y": 577.31582
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 40,
+        "height": 72
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "lineColor": "rgb(255,255,255)",
+        "state": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671730,
+      "p": {
+        "displayName": "billboard",
+        "parent": {
+          "__i": 2671712
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/billboard.json",
+        "position": {
+          "x": 245.58361,
+          "y": 415.37665
+        },
+        "scale": {
+          "x": 0.8,
+          "y": 0.8
+        },
+        "width": 240,
+        "height": 150
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "table.scrollWidth": 234.49913,
+        "table.scrollHeight": 60,
+        "table.padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "table.scrollbarColor": "rgb(35,121,207)",
+        "table.scrollbarGap": 0,
+        "table.scrollbarWidth": 4,
+        "table.scrollbarWidthAbsolute": false,
+        "table.scrollSpeed": 1,
+        "table.scrollable": false,
+        "table.pannable": true,
+        "table.autoHideScrollbar": false,
+        "table.momentumScroll": true,
+        "table.stopPropagation": false,
+        "table.resetWhenClear": false,
+        "dataModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2671889,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}},{\"c\":\"ht.Data\",\"i\":2671890,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}}]}"
+        },
+        "columnModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2671891,\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671892,\"p\":{\"name\":\"r\",\"displayName\":\"R\"},\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671893,\"p\":{\"name\":\"s\",\"displayName\":\"S\"},\"s\":{\"visible\":true,\"width\":\"0.1\",\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671894,\"p\":{\"name\":\"t\",\"displayName\":\"T\"},\"s\":{\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}}]}"
+        },
+        "cornerRadius": 5
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671731,
+      "p": {
+        "displayName": "billboard",
+        "parent": {
+          "__i": 2671712
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/billboard.json",
+        "position": {
+          "x": 245.58361,
+          "y": 251.53261
+        },
+        "scale": {
+          "x": 0.8,
+          "y": 0.8
+        },
+        "width": 240,
+        "height": 150
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "table.scrollWidth": 234.49913,
+        "table.scrollHeight": 60,
+        "table.padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "table.scrollbarColor": "rgb(35,121,207)",
+        "table.scrollbarGap": 0,
+        "table.scrollbarWidth": 4,
+        "table.scrollbarWidthAbsolute": false,
+        "table.scrollSpeed": 1,
+        "table.scrollable": false,
+        "table.pannable": true,
+        "table.autoHideScrollbar": false,
+        "table.momentumScroll": true,
+        "table.stopPropagation": false,
+        "table.resetWhenClear": false,
+        "dataModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2671895,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}},{\"c\":\"ht.Data\",\"i\":2671896,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}}]}"
+        },
+        "columnModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2671897,\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671898,\"p\":{\"name\":\"r\",\"displayName\":\"R\"},\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671899,\"p\":{\"name\":\"s\",\"displayName\":\"S\"},\"s\":{\"visible\":true,\"width\":\"0.1\",\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671900,\"p\":{\"name\":\"t\",\"displayName\":\"T\"},\"s\":{\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}}]}"
+        },
+        "cornerRadius": 5
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671732,
+      "p": {
+        "displayName": "billboard",
+        "parent": {
+          "__i": 2671712
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/billboard.json",
+        "position": {
+          "x": 144,
+          "y": 560
+        },
+        "scale": {
+          "x": 0.8,
+          "y": 0.8
+        },
+        "width": 240,
+        "height": 150,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "table.scrollWidth": 234.49913,
+        "table.scrollHeight": 60,
+        "table.padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "table.scrollbarColor": "rgb(35,121,207)",
+        "table.scrollbarGap": 0,
+        "table.scrollbarWidth": 4,
+        "table.scrollbarWidthAbsolute": false,
+        "table.scrollSpeed": 1,
+        "table.scrollable": false,
+        "table.pannable": true,
+        "table.autoHideScrollbar": false,
+        "table.momentumScroll": true,
+        "table.stopPropagation": false,
+        "table.resetWhenClear": false,
+        "dataModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2671901,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}},{\"c\":\"ht.Data\",\"i\":2671902,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}}]}"
+        },
+        "columnModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2671903,\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671904,\"p\":{\"name\":\"r\",\"displayName\":\"R\"},\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671905,\"p\":{\"name\":\"s\",\"displayName\":\"S\"},\"s\":{\"visible\":true,\"width\":\"0.1\",\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671906,\"p\":{\"name\":\"t\",\"displayName\":\"T\"},\"s\":{\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}}]}"
+        },
+        "cornerRadius": 5
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 2671733,
+      "p": {
+        "position": {
+          "x": 562.45045,
+          "y": 573.48811
+        },
+        "anchor": {
+          "x": 0.58384,
+          "y": 0.47571
+        },
+        "width": 392.00077,
+        "height": 957.02768
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 2671734,
+      "p": {
+        "displayName": "line",
+        "parent": {
+          "__i": 2671733
+        },
+        "position": {
+          "x": 428.9357,
+          "y": 296.35845
+        },
+        "anchor": {
+          "x": 0.49985,
+          "y": 0.13884
+        },
+        "width": 100.83369,
+        "height": 832.85352
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671735,
+      "p": {
+        "parent": {
+          "__i": 2671734
+        },
+        "position": {
+          "x": 378.58361,
+          "y": 205.94751
+        },
+        "width": 0,
+        "height": 50.45044,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 378.58361,
+              "y": 180.72229
+            },
+            {
+              "x": 378.58361,
+              "y": 231.17273
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671736,
+      "p": {
+        "parent": {
+          "__i": 2671734
+        },
+        "position": {
+          "x": 479.28779,
+          "y": 243.17172
+        },
+        "width": 0,
+        "height": 124.89888,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 479.28779,
+              "y": 180.72229
+            },
+            {
+              "x": 479.28779,
+              "y": 305.62116
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671737,
+      "p": {
+        "parent": {
+          "__i": 2671734
+        },
+        "position": {
+          "x": 378.58361,
+          "y": 352.22226
+        },
+        "width": 0,
+        "height": 119.54471,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 378.58361,
+              "y": 292.44991
+            },
+            {
+              "x": 378.58361,
+              "y": 411.99462
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671738,
+      "p": {
+        "parent": {
+          "__i": 2671734
+        },
+        "position": {
+          "x": 428.9657,
+          "y": 379.27343
+        },
+        "width": 100.64418,
+        "height": 23.0022,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 479.28779,
+              "y": 367.77233
+            },
+            {
+              "x": 479.28779,
+              "y": 390.77453
+            },
+            {
+              "x": 378.64361,
+              "y": 390.77453
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671739,
+      "p": {
+        "parent": {
+          "__i": 2671734
+        },
+        "position": {
+          "x": 378.58361,
+          "y": 520.8322
+        },
+        "width": 0.1,
+        "height": 111.2956,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 378.58361,
+              "y": 465.1844
+            },
+            {
+              "x": 378.58361,
+              "y": 576.48
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671740,
+      "p": {
+        "parent": {
+          "__i": 2671734
+        },
+        "position": {
+          "x": 378.6936,
+          "y": 826.04874
+        },
+        "width": 0.1,
+        "height": 374.74385,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 378.6936,
+              "y": 638.67682
+            },
+            {
+              "x": 378.6936,
+              "y": 1013.42067
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671741,
+      "p": {
+        "parent": {
+          "__i": 2671734
+        },
+        "position": {
+          "x": 479.3673,
+          "y": 584.2715
+        },
+        "width": 0,
+        "height": 128.543,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 479.3673,
+              "y": 520
+            },
+            {
+              "x": 479.3673,
+              "y": 648.543
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671742,
+      "p": {
+        "parent": {
+          "__i": 2671734
+        },
+        "position": {
+          "x": 479.3673,
+          "y": 798.40001
+        },
+        "width": 0,
+        "height": 173.88601,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 479.3673,
+              "y": 711.457
+            },
+            {
+              "x": 479.3673,
+              "y": 885.34301
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671743,
+      "p": {
+        "parent": {
+          "__i": 2671734
+        },
+        "position": {
+          "x": 479.3673,
+          "y": 980.6914
+        },
+        "width": 0,
+        "height": 65.76881,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 479.3673,
+              "y": 947.80699
+            },
+            {
+              "x": 479.3673,
+              "y": 1013.5758
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671744,
+      "p": {
+        "displayName": "dash",
+        "parent": {
+          "__i": 2671734
+        },
+        "position": {
+          "x": 428.9357,
+          "y": 290.27641
+        },
+        "width": 77.30167,
+        "height": 58.38029,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 390.28487,
+              "y": 261.08626
+            },
+            {
+              "x": 401.25439,
+              "y": 278.65809
+            },
+            {
+              "x": 454.02576,
+              "y": 278.65809
+            },
+            {
+              "x": 467.58653,
+              "y": 319.46655
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "border.width": 3,
+        "shape.border.pattern": [
+          10,
+          8
+        ],
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671745,
+      "p": {
+        "displayName": "dash",
+        "parent": {
+          "__i": 2671734
+        },
+        "position": {
+          "x": 430.42244,
+          "y": 639.94633
+        },
+        "width": 80.27514,
+        "height": 46.78297,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 390.28487,
+              "y": 616.55485
+            },
+            {
+              "x": 393.13005,
+              "y": 621.11248
+            },
+            {
+              "x": 401.25439,
+              "y": 634.12668
+            },
+            {
+              "x": 454.02576,
+              "y": 634.12668
+            },
+            {
+              "x": 470.56001,
+              "y": 663.33782
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "border.width": 3,
+        "shape.border.pattern": [
+          10,
+          10
+        ],
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671746,
+      "p": {
+        "displayName": "start",
+        "parent": {
+          "__i": 2671733
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/arrow.json",
+        "position": {
+          "x": 378.58361,
+          "y": 174.47232
+        },
+        "width": 40,
+        "height": 20,
+        "tall": 20
+      },
+      "s": {
+        "shadow2.color": "rgb(122,122,122)",
+        "shadow2.blur": 5,
+        "shadow2.offset.x": 2,
+        "shadow2.offset.y": 2,
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "lineColor": "rgb(255,0,0)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671747,
+      "p": {
+        "displayName": "start",
+        "parent": {
+          "__i": 2671733
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/arrow.json",
+        "position": {
+          "x": 479.3173,
+          "y": 174.47232
+        },
+        "width": 40,
+        "height": 20,
+        "tall": 20
+      },
+      "s": {
+        "shadow2.color": "rgb(122,122,122)",
+        "shadow2.blur": 5,
+        "shadow2.offset.x": 2,
+        "shadow2.offset.y": 2,
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "lineColor": "rgb(255,0,0)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671748,
+      "p": {
+        "displayName": "label",
+        "parent": {
+          "__i": 2671733
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/label.json",
+        "position": {
+          "x": 378.58361,
+          "y": 138.47232
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 100,
+        "height": 45
+      },
+      "s": {
+        "interactive": true,
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671749,
+      "p": {
+        "displayName": "label",
+        "parent": {
+          "__i": 2671733
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/label.json",
+        "position": {
+          "x": 482.58438,
+          "y": 138.47232
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 100,
+        "height": 45,
+        "tall": 20
+      },
+      "s": {
+        "interactive": true,
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "value1": "A-HV CT-5-2"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671750,
+      "p": {
+        "displayName": "billboard",
+        "parent": {
+          "__i": 2671733
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/billboard.json",
+        "position": {
+          "x": 629.58438,
+          "y": 415.37665
+        },
+        "scale": {
+          "x": 0.8,
+          "y": 0.8
+        },
+        "width": 240,
+        "height": 150,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "table.scrollWidth": 234.49913,
+        "table.scrollHeight": 60,
+        "table.padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "table.scrollbarColor": "rgb(35,121,207)",
+        "table.scrollbarGap": 0,
+        "table.scrollbarWidth": 4,
+        "table.scrollbarWidthAbsolute": false,
+        "table.scrollSpeed": 1,
+        "table.scrollable": false,
+        "table.pannable": true,
+        "table.autoHideScrollbar": false,
+        "table.momentumScroll": true,
+        "table.stopPropagation": false,
+        "table.resetWhenClear": false,
+        "dataModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2671907,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}},{\"c\":\"ht.Data\",\"i\":2671908,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}}]}"
+        },
+        "columnModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2671909,\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671910,\"p\":{\"name\":\"r\",\"displayName\":\"R\"},\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671911,\"p\":{\"name\":\"s\",\"displayName\":\"S\"},\"s\":{\"visible\":true,\"width\":\"0.1\",\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671912,\"p\":{\"name\":\"t\",\"displayName\":\"T\"},\"s\":{\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}}]}"
+        },
+        "cornerRadius": 5,
+        "title": "A-HVU-2F-U1/U"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671751,
+      "p": {
+        "displayName": "billboard",
+        "parent": {
+          "__i": 2671733
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/billboard.json",
+        "position": {
+          "x": 629.58438,
+          "y": 251.53261
+        },
+        "scale": {
+          "x": 0.8,
+          "y": 0.8
+        },
+        "width": 240,
+        "height": 150,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "table.scrollWidth": 234.49913,
+        "table.scrollHeight": 60,
+        "table.padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "table.scrollbarColor": "rgb(35,121,207)",
+        "table.scrollbarGap": 0,
+        "table.scrollbarWidth": 4,
+        "table.scrollbarWidthAbsolute": false,
+        "table.scrollSpeed": 1,
+        "table.scrollable": false,
+        "table.pannable": true,
+        "table.autoHideScrollbar": false,
+        "table.momentumScroll": true,
+        "table.stopPropagation": false,
+        "table.resetWhenClear": false,
+        "dataModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2671913,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}},{\"c\":\"ht.Data\",\"i\":2671914,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}}]}"
+        },
+        "columnModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2671915,\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671916,\"p\":{\"name\":\"r\",\"displayName\":\"R\"},\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671917,\"p\":{\"name\":\"s\",\"displayName\":\"S\"},\"s\":{\"visible\":true,\"width\":\"0.1\",\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671918,\"p\":{\"name\":\"t\",\"displayName\":\"T\"},\"s\":{\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}}]}"
+        },
+        "title": "A-HVU-2F-U1/D",
+        "cornerRadius": 5
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671752,
+      "p": {
+        "displayName": "billboard",
+        "parent": {
+          "__i": 2671733
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/billboard.json",
+        "position": {
+          "x": 629.58438,
+          "y": 765.65791
+        },
+        "scale": {
+          "x": 0.8,
+          "y": 0.8
+        },
+        "width": 240,
+        "height": 150,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "table.scrollWidth": 234.49913,
+        "table.scrollHeight": 60,
+        "table.padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "table.scrollbarColor": "rgb(35,121,207)",
+        "table.scrollbarGap": 0,
+        "table.scrollbarWidth": 4,
+        "table.scrollbarWidthAbsolute": false,
+        "table.scrollSpeed": 1,
+        "table.scrollable": false,
+        "table.pannable": true,
+        "table.autoHideScrollbar": false,
+        "table.momentumScroll": true,
+        "table.stopPropagation": false,
+        "table.resetWhenClear": false,
+        "dataModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2671919,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}},{\"c\":\"ht.Data\",\"i\":2671920,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}}]}"
+        },
+        "columnModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2671921,\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671922,\"p\":{\"name\":\"r\",\"displayName\":\"R\"},\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671923,\"p\":{\"name\":\"s\",\"displayName\":\"S\"},\"s\":{\"visible\":true,\"width\":\"0.1\",\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671924,\"p\":{\"name\":\"t\",\"displayName\":\"T\"},\"s\":{\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}}]}"
+        },
+        "cornerRadius": 5,
+        "title": "A-HVU-2F-U1/D"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671753,
+      "p": {
+        "displayName": "billboard",
+        "parent": {
+          "__i": 2671733
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/billboard.json",
+        "position": {
+          "x": 629.58438,
+          "y": 608.31582
+        },
+        "scale": {
+          "x": 0.8,
+          "y": 0.8
+        },
+        "width": 240,
+        "height": 150,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "table.scrollWidth": 234.49913,
+        "table.scrollHeight": 60,
+        "table.padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "table.scrollbarColor": "rgb(35,121,207)",
+        "table.scrollbarGap": 0,
+        "table.scrollbarWidth": 4,
+        "table.scrollbarWidthAbsolute": false,
+        "table.scrollSpeed": 1,
+        "table.scrollable": false,
+        "table.pannable": true,
+        "table.autoHideScrollbar": false,
+        "table.momentumScroll": true,
+        "table.stopPropagation": false,
+        "table.resetWhenClear": false,
+        "dataModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2671925,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}},{\"c\":\"ht.Data\",\"i\":2671926,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}}]}"
+        },
+        "columnModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2671927,\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671928,\"p\":{\"name\":\"r\",\"displayName\":\"R\"},\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671929,\"p\":{\"name\":\"s\",\"displayName\":\"S\"},\"s\":{\"visible\":true,\"width\":\"0.1\",\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671930,\"p\":{\"name\":\"t\",\"displayName\":\"T\"},\"s\":{\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}}]}"
+        },
+        "cornerRadius": 5,
+        "title": "A-HVU-2F-U1/U"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671754,
+      "p": {
+        "displayName": "billboard",
+        "parent": {
+          "__i": 2671733
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/billboard.json",
+        "position": {
+          "x": 629.58438,
+          "y": 923
+        },
+        "scale": {
+          "x": 0.8,
+          "y": 0.8
+        },
+        "width": 240,
+        "height": 150,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "table.scrollWidth": 234.49913,
+        "table.scrollHeight": 60,
+        "table.padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "table.scrollbarColor": "rgb(35,121,207)",
+        "table.scrollbarGap": 0,
+        "table.scrollbarWidth": 4,
+        "table.scrollbarWidthAbsolute": false,
+        "table.scrollSpeed": 1,
+        "table.scrollable": false,
+        "table.pannable": true,
+        "table.autoHideScrollbar": false,
+        "table.momentumScroll": true,
+        "table.stopPropagation": false,
+        "table.resetWhenClear": false,
+        "dataModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2671931,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}},{\"c\":\"ht.Data\",\"i\":2671932,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}}]}"
+        },
+        "columnModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2671933,\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671934,\"p\":{\"name\":\"r\",\"displayName\":\"R\"},\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671935,\"p\":{\"name\":\"s\",\"displayName\":\"S\"},\"s\":{\"visible\":true,\"width\":\"0.1\",\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671936,\"p\":{\"name\":\"t\",\"displayName\":\"T\"},\"s\":{\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}}]}"
+        },
+        "cornerRadius": 5,
+        "title": "A-HVU-2F-U1-1"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671755,
+      "p": {
+        "displayName": "1",
+        "parent": {
+          "__i": 2671733
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/1.json",
+        "position": {
+          "x": 378.58361,
+          "y": 426.94991
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 40,
+        "height": 40,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "lineColor": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671756,
+      "p": {
+        "displayName": "2",
+        "parent": {
+          "__i": 2671733
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/2.json",
+        "rotation": 3.14159,
+        "position": {
+          "x": 378.58361,
+          "y": 450.73566
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 40,
+        "height": 40,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "lineColor": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671757,
+      "p": {
+        "displayName": "3 2",
+        "parent": {
+          "__i": 2671733
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/3 2.json",
+        "position": {
+          "x": 378.58361,
+          "y": 261.94991
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 40,
+        "height": 70,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "borderColor": "rgb(255,255,255)",
+        "lineColor": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671758,
+      "p": {
+        "displayName": "3 2",
+        "parent": {
+          "__i": 2671733
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/3 2.json",
+        "position": {
+          "x": 479.28779,
+          "y": 336.94991
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 40,
+        "height": 70,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "borderColor": "rgb(255,255,255)",
+        "lineColor": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671759,
+      "p": {
+        "displayName": "on",
+        "parent": {
+          "__i": 2671733
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/on 3.json",
+        "position": {
+          "x": 388.45772,
+          "y": 608.31582
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 40,
+        "height": 72,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "lineColor": "rgb(255,255,255)",
+        "state": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671760,
+      "p": {
+        "displayName": "text",
+        "parent": {
+          "__i": 2671733
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/state2.json",
+        "position": {
+          "x": 451.3173,
+          "y": 441.37665
+        },
+        "width": 100,
+        "height": 52,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "text": "A -TRU 2F-U1 3,000kVA",
+        "value1": "A-TRU",
+        "value2": "2F-U1",
+        "value3": "3,000kVA",
+        "font": "13px Pretendard Variable"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671761,
+      "p": {
+        "displayName": "state",
+        "parent": {
+          "__i": 2671733
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/state.json",
+        "position": {
+          "x": 437.58361,
+          "y": 261.94991
+        },
+        "width": 80,
+        "height": 30,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "font": "13px Pretendard Variable"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671762,
+      "p": {
+        "displayName": "on",
+        "parent": {
+          "__i": 2671733
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/on 3.json",
+        "position": {
+          "x": 489.22154,
+          "y": 680.31582
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 40,
+        "height": 72,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "lineColor": "rgb(255,255,255)",
+        "state": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671763,
+      "p": {
+        "displayName": "on",
+        "parent": {
+          "__i": 2671733
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/on 3.json",
+        "position": {
+          "x": 489.22154,
+          "y": 917
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 40,
+        "height": 72,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "lineColor": "rgb(255,255,255)",
+        "state": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671764,
+      "p": {
+        "displayName": "label",
+        "parent": {
+          "__i": 2671733
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/label.json",
+        "position": {
+          "x": 378.58361,
+          "y": 1055
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 100,
+        "height": 45,
+        "tall": 20
+      },
+      "s": {
+        "interactive": true,
+        "2d.movable": false,
+        "2d.editable": false,
+        "select.width": 0
+      },
+      "a": {
+        "title": "TO",
+        "borderStyle": {
+          "color": [
+            "linear",
+            0.5,
+            0,
+            0.5,
+            1,
+            0,
+            "rgb(194,194,194)",
+            1,
+            "rgb(214,214,214)"
+          ],
+          "width": 1,
+          "dashOffset": 0,
+          "cap": "butt",
+          "join": "round",
+          "cornerRadius": [
+            3
+          ]
+        },
+        "value1": "A-LVU 2F-U1-5"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671765,
+      "p": {
+        "displayName": "label",
+        "parent": {
+          "__i": 2671733
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/label.json",
+        "position": {
+          "x": 482.58438,
+          "y": 1055
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 100,
+        "height": 45,
+        "tall": 20
+      },
+      "s": {
+        "interactive": true,
+        "2d.movable": false,
+        "2d.editable": false,
+        "select.width": 0
+      },
+      "a": {
+        "title": "TO",
+        "borderStyle": {
+          "color": [
+            "linear",
+            0.5,
+            0,
+            0.5,
+            1,
+            0,
+            "rgb(194,194,194)",
+            1,
+            "rgb(214,214,214)"
+          ],
+          "width": 1,
+          "dashOffset": 0,
+          "cap": "butt",
+          "join": "round",
+          "cornerRadius": [
+            3
+          ]
+        },
+        "value1": "A-LVU 2F-U1-2"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671766,
+      "p": {
+        "displayName": "end",
+        "parent": {
+          "__i": 2671733
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/arrow.json",
+        "position": {
+          "x": 378.58361,
+          "y": 1016.15
+        },
+        "width": 40,
+        "height": 20,
+        "tall": 20
+      },
+      "s": {
+        "shadow2.color": "rgb(122,122,122)",
+        "shadow2.blur": 5,
+        "shadow2.offset.x": 2,
+        "shadow2.offset.y": 2,
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "lineColor": "rgb(255,0,0)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671767,
+      "p": {
+        "displayName": "end",
+        "parent": {
+          "__i": 2671733
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/arrow.json",
+        "position": {
+          "x": 479.3173,
+          "y": 1016.15
+        },
+        "width": 40,
+        "height": 20,
+        "tall": 20
+      },
+      "s": {
+        "shadow2.color": "rgb(122,122,122)",
+        "shadow2.blur": 5,
+        "shadow2.offset.x": 2,
+        "shadow2.offset.y": 2,
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "lineColor": "rgb(255,0,0)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671768,
+      "p": {
+        "displayName": "state",
+        "parent": {
+          "__i": 2671733
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/state.json",
+        "position": {
+          "x": 437.58361,
+          "y": 617.4185
+        },
+        "width": 80,
+        "height": 30,
+        "tall": 20
+      },
+      "s": {
+        "select.width": 0
+      },
+      "a": {
+        "font": "13px Pretendard Variable"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 2671769,
+      "p": {
+        "position": {
+          "x": 975.45045,
+          "y": 573.48811
+        },
+        "anchor": {
+          "x": 0.63909,
+          "y": 0.47571
+        },
+        "width": 382.00076,
+        "height": 957.02768
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 2671770,
+      "p": {
+        "displayName": "line",
+        "parent": {
+          "__i": 2671769
+        },
+        "position": {
+          "x": 825.9357,
+          "y": 296.35845
+        },
+        "anchor": {
+          "x": 0.50606,
+          "y": 0.13884
+        },
+        "width": 102.00076,
+        "height": 832.85352
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671771,
+      "p": {
+        "parent": {
+          "__i": 2671770
+        },
+        "position": {
+          "x": 774.31692,
+          "y": 205.99114
+        },
+        "width": 0,
+        "height": 50.53771,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 774.31692,
+              "y": 180.72229
+            },
+            {
+              "x": 774.31692,
+              "y": 231.26
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671772,
+      "p": {
+        "parent": {
+          "__i": 2671770
+        },
+        "position": {
+          "x": 876.28779,
+          "y": 243.17172
+        },
+        "width": 0,
+        "height": 124.89888,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 876.28779,
+              "y": 180.72229
+            },
+            {
+              "x": 876.28779,
+              "y": 305.62116
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671773,
+      "p": {
+        "parent": {
+          "__i": 2671770
+        },
+        "position": {
+          "x": 775.58361,
+          "y": 352.22226
+        },
+        "width": 0,
+        "height": 119.54471,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 775.58361,
+              "y": 292.44991
+            },
+            {
+              "x": 775.58361,
+              "y": 411.99462
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671774,
+      "p": {
+        "parent": {
+          "__i": 2671770
+        },
+        "position": {
+          "x": 825.9657,
+          "y": 379.27343
+        },
+        "width": 100.64418,
+        "height": 23.0022,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 876.28779,
+              "y": 367.77233
+            },
+            {
+              "x": 876.28779,
+              "y": 390.77453
+            },
+            {
+              "x": 775.64361,
+              "y": 390.77453
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671775,
+      "p": {
+        "parent": {
+          "__i": 2671770
+        },
+        "position": {
+          "x": 774.5716,
+          "y": 520.8322
+        },
+        "width": 0.1,
+        "height": 111.2956,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 774.5716,
+              "y": 465.1844
+            },
+            {
+              "x": 774.5716,
+              "y": 576.48
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671776,
+      "p": {
+        "parent": {
+          "__i": 2671770
+        },
+        "position": {
+          "x": 774.5716,
+          "y": 826.04874
+        },
+        "width": 0.1,
+        "height": 374.74385,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 774.5716,
+              "y": 638.67682
+            },
+            {
+              "x": 774.5716,
+              "y": 1013.42067
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671777,
+      "p": {
+        "parent": {
+          "__i": 2671770
+        },
+        "position": {
+          "x": 876.31768,
+          "y": 584.2715
+        },
+        "width": 0,
+        "height": 128.543,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 876.31768,
+              "y": 520
+            },
+            {
+              "x": 876.31768,
+              "y": 648.543
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671778,
+      "p": {
+        "parent": {
+          "__i": 2671770
+        },
+        "position": {
+          "x": 876.31768,
+          "y": 798.40001
+        },
+        "width": 0,
+        "height": 173.88601,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 876.31768,
+              "y": 711.457
+            },
+            {
+              "x": 876.31768,
+              "y": 885.34301
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671779,
+      "p": {
+        "parent": {
+          "__i": 2671770
+        },
+        "position": {
+          "x": 876.31768,
+          "y": 980.6914
+        },
+        "width": 0,
+        "height": 65.76881,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 876.31768,
+              "y": 947.80699
+            },
+            {
+              "x": 876.31768,
+              "y": 1013.5758
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671780,
+      "p": {
+        "displayName": "dash",
+        "parent": {
+          "__i": 2671770
+        },
+        "position": {
+          "x": 824.94423,
+          "y": 290.27641
+        },
+        "width": 81.09311,
+        "height": 58.38029,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 784.39767,
+              "y": 261.08626
+            },
+            {
+              "x": 795.90522,
+              "y": 278.65809
+            },
+            {
+              "x": 851.26489,
+              "y": 278.65809
+            },
+            {
+              "x": 865.49078,
+              "y": 319.46655
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "border.width": 3,
+        "shape.border.pattern": [
+          10,
+          8
+        ],
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671781,
+      "p": {
+        "displayName": "dash",
+        "parent": {
+          "__i": 2671770
+        },
+        "position": {
+          "x": 826.53524,
+          "y": 639.94633
+        },
+        "width": 80.27514,
+        "height": 46.78297,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 786.39767,
+              "y": 616.55485
+            },
+            {
+              "x": 789.24285,
+              "y": 621.11248
+            },
+            {
+              "x": 797.36719,
+              "y": 634.12668
+            },
+            {
+              "x": 850.13856,
+              "y": 634.12668
+            },
+            {
+              "x": 866.67281,
+              "y": 663.33782
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "border.width": 3,
+        "shape.border.pattern": [
+          10,
+          10
+        ],
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671782,
+      "p": {
+        "displayName": "start",
+        "parent": {
+          "__i": 2671769
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/arrow.json",
+        "position": {
+          "x": 774.31692,
+          "y": 174.47232
+        },
+        "width": 40,
+        "height": 20,
+        "tall": 20
+      },
+      "s": {
+        "shadow2.color": "rgb(122,122,122)",
+        "shadow2.blur": 5,
+        "shadow2.offset.x": 2,
+        "shadow2.offset.y": 2,
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "lineColor": "rgb(255,0,0)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671783,
+      "p": {
+        "displayName": "start",
+        "parent": {
+          "__i": 2671769
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/arrow.json",
+        "position": {
+          "x": 876.31768,
+          "y": 174.47232
+        },
+        "width": 40,
+        "height": 20,
+        "tall": 20
+      },
+      "s": {
+        "shadow2.color": "rgb(122,122,122)",
+        "shadow2.blur": 5,
+        "shadow2.offset.x": 2,
+        "shadow2.offset.y": 2,
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "lineColor": "rgb(255,0,0)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671784,
+      "p": {
+        "displayName": "label",
+        "parent": {
+          "__i": 2671769
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/label.json",
+        "position": {
+          "x": 776.31692,
+          "y": 138.47232
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 100,
+        "height": 45,
+        "tall": 20
+      },
+      "s": {
+        "interactive": true,
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671785,
+      "p": {
+        "displayName": "label",
+        "parent": {
+          "__i": 2671769
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/label.json",
+        "position": {
+          "x": 876.31768,
+          "y": 138.47232
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 100,
+        "height": 45,
+        "tall": 20
+      },
+      "s": {
+        "interactive": true,
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "value1": "A-HV CT-5-2"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671786,
+      "p": {
+        "displayName": "1",
+        "parent": {
+          "__i": 2671769
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/1.json",
+        "position": {
+          "x": 775.31692,
+          "y": 426.94991
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 40,
+        "height": 40,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "lineColor": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671787,
+      "p": {
+        "displayName": "2",
+        "parent": {
+          "__i": 2671769
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/2.json",
+        "rotation": 3.14159,
+        "position": {
+          "x": 775.31692,
+          "y": 450.73566
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 40,
+        "height": 40,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "lineColor": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671788,
+      "p": {
+        "displayName": "3 2",
+        "parent": {
+          "__i": 2671769
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/3 2.json",
+        "position": {
+          "x": 774.31692,
+          "y": 261.94991
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 40,
+        "height": 70,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "borderColor": "rgb(255,255,255)",
+        "lineColor": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671789,
+      "p": {
+        "displayName": "3 2",
+        "parent": {
+          "__i": 2671769
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/3 2.json",
+        "position": {
+          "x": 876.31768,
+          "y": 336.94991
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 40,
+        "height": 70,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "borderColor": "rgb(255,255,255)",
+        "lineColor": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671790,
+      "p": {
+        "displayName": "on",
+        "parent": {
+          "__i": 2671769
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/on 3.json",
+        "position": {
+          "x": 784.39767,
+          "y": 608.31582
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 40,
+        "height": 72,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "lineColor": "rgb(255,255,255)",
+        "state": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671791,
+      "p": {
+        "displayName": "text",
+        "parent": {
+          "__i": 2671769
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/state2.json",
+        "position": {
+          "x": 845.67747,
+          "y": 441.37665
+        },
+        "width": 100,
+        "height": 52,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "text": "A -TRU 2F-U1 3,000kVA",
+        "value1": "A-TRU",
+        "value2": "2F-U1",
+        "value3": "3,000kVA",
+        "font": "13px Pretendard Variable"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671792,
+      "p": {
+        "displayName": "state",
+        "parent": {
+          "__i": 2671769
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/state.json",
+        "position": {
+          "x": 831.67747,
+          "y": 261.94991
+        },
+        "width": 80,
+        "height": 30,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "font": "13px Pretendard Variable"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671793,
+      "p": {
+        "displayName": "on",
+        "parent": {
+          "__i": 2671769
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/on 3.json",
+        "position": {
+          "x": 886.49771,
+          "y": 680.31582
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 40,
+        "height": 72,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "lineColor": "rgb(255,255,255)",
+        "state": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671794,
+      "p": {
+        "displayName": "on",
+        "parent": {
+          "__i": 2671769
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/on 3.json",
+        "position": {
+          "x": 886.49771,
+          "y": 917
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 40,
+        "height": 72,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "lineColor": "rgb(255,255,255)",
+        "state": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671795,
+      "p": {
+        "displayName": "label",
+        "parent": {
+          "__i": 2671769
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/label.json",
+        "position": {
+          "x": 776.31692,
+          "y": 1055
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 100,
+        "height": 45,
+        "tall": 20
+      },
+      "s": {
+        "interactive": true,
+        "2d.movable": false,
+        "2d.editable": false,
+        "select.width": 0
+      },
+      "a": {
+        "title": "TO",
+        "borderStyle": {
+          "color": [
+            "linear",
+            0.5,
+            0,
+            0.5,
+            1,
+            0,
+            "rgb(194,194,194)",
+            1,
+            "rgb(214,214,214)"
+          ],
+          "width": 1,
+          "dashOffset": 0,
+          "cap": "butt",
+          "join": "round",
+          "cornerRadius": [
+            3
+          ]
+        },
+        "value1": "A-LVU 2F-D1-5"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671796,
+      "p": {
+        "displayName": "label",
+        "parent": {
+          "__i": 2671769
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/label.json",
+        "position": {
+          "x": 876.31768,
+          "y": 1055
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 100,
+        "height": 45,
+        "tall": 20
+      },
+      "s": {
+        "interactive": true,
+        "2d.movable": false,
+        "2d.editable": false,
+        "select.width": 0
+      },
+      "a": {
+        "title": "TO",
+        "borderStyle": {
+          "color": [
+            "linear",
+            0.5,
+            0,
+            0.5,
+            1,
+            0,
+            "rgb(194,194,194)",
+            1,
+            "rgb(214,214,214)"
+          ],
+          "width": 1,
+          "dashOffset": 0,
+          "cap": "butt",
+          "join": "round",
+          "cornerRadius": [
+            3
+          ]
+        },
+        "value1": "A-LVU 2F-D1-2"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671797,
+      "p": {
+        "displayName": "state",
+        "parent": {
+          "__i": 2671769
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/state.json",
+        "position": {
+          "x": 833.69641,
+          "y": 617.4185
+        },
+        "width": 80,
+        "height": 30,
+        "tall": 20
+      },
+      "s": {
+        "select.width": 0
+      },
+      "a": {
+        "font": "13px Pretendard Variable"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671798,
+      "p": {
+        "displayName": "end",
+        "parent": {
+          "__i": 2671769
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/arrow.json",
+        "position": {
+          "x": 774.31692,
+          "y": 1016.15
+        },
+        "width": 40,
+        "height": 20,
+        "tall": 20
+      },
+      "s": {
+        "shadow2.color": "rgb(122,122,122)",
+        "shadow2.blur": 5,
+        "shadow2.offset.x": 2,
+        "shadow2.offset.y": 2,
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "lineColor": "rgb(255,0,0)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671799,
+      "p": {
+        "displayName": "end",
+        "parent": {
+          "__i": 2671769
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/arrow.json",
+        "position": {
+          "x": 876.31768,
+          "y": 1016.15
+        },
+        "width": 40,
+        "height": 20,
+        "tall": 20
+      },
+      "s": {
+        "shadow2.color": "rgb(122,122,122)",
+        "shadow2.blur": 5,
+        "shadow2.offset.x": 2,
+        "shadow2.offset.y": 2,
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "lineColor": "rgb(255,0,0)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671800,
+      "p": {
+        "displayName": "billboard",
+        "parent": {
+          "__i": 2671769
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/billboard.json",
+        "position": {
+          "x": 1017.31768,
+          "y": 415.37665
+        },
+        "scale": {
+          "x": 0.8,
+          "y": 0.8
+        },
+        "width": 240,
+        "height": 150,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "table.scrollWidth": 234.49913,
+        "table.scrollHeight": 60,
+        "table.padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "table.scrollbarColor": "rgb(35,121,207)",
+        "table.scrollbarGap": 0,
+        "table.scrollbarWidth": 4,
+        "table.scrollbarWidthAbsolute": false,
+        "table.scrollSpeed": 1,
+        "table.scrollable": false,
+        "table.pannable": true,
+        "table.autoHideScrollbar": false,
+        "table.momentumScroll": true,
+        "table.stopPropagation": false,
+        "table.resetWhenClear": false,
+        "dataModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2671937,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}},{\"c\":\"ht.Data\",\"i\":2671938,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}}]}"
+        },
+        "columnModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2671939,\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671940,\"p\":{\"name\":\"r\",\"displayName\":\"R\"},\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671941,\"p\":{\"name\":\"s\",\"displayName\":\"S\"},\"s\":{\"visible\":true,\"width\":\"0.1\",\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671942,\"p\":{\"name\":\"t\",\"displayName\":\"T\"},\"s\":{\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}}]}"
+        },
+        "cornerRadius": 5,
+        "title": "A-HVU-2F-D1/U"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671801,
+      "p": {
+        "displayName": "billboard",
+        "parent": {
+          "__i": 2671769
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/billboard.json",
+        "position": {
+          "x": 1017.31768,
+          "y": 251.53261
+        },
+        "scale": {
+          "x": 0.8,
+          "y": 0.8
+        },
+        "width": 240,
+        "height": 150,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "table.scrollWidth": 234.49913,
+        "table.scrollHeight": 60,
+        "table.padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "table.scrollbarColor": "rgb(35,121,207)",
+        "table.scrollbarGap": 0,
+        "table.scrollbarWidth": 4,
+        "table.scrollbarWidthAbsolute": false,
+        "table.scrollSpeed": 1,
+        "table.scrollable": false,
+        "table.pannable": true,
+        "table.autoHideScrollbar": false,
+        "table.momentumScroll": true,
+        "table.stopPropagation": false,
+        "table.resetWhenClear": false,
+        "dataModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2671943,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}},{\"c\":\"ht.Data\",\"i\":2671944,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}}]}"
+        },
+        "columnModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2671945,\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671946,\"p\":{\"name\":\"r\",\"displayName\":\"R\"},\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671947,\"p\":{\"name\":\"s\",\"displayName\":\"S\"},\"s\":{\"visible\":true,\"width\":\"0.1\",\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671948,\"p\":{\"name\":\"t\",\"displayName\":\"T\"},\"s\":{\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}}]}"
+        },
+        "cornerRadius": 5,
+        "title": "A-HVU-2F-D1/D"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671802,
+      "p": {
+        "displayName": "billboard",
+        "parent": {
+          "__i": 2671769
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/billboard.json",
+        "position": {
+          "x": 1017.31768,
+          "y": 765.65791
+        },
+        "scale": {
+          "x": 0.8,
+          "y": 0.8
+        },
+        "width": 240,
+        "height": 150,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "table.scrollWidth": 234.49913,
+        "table.scrollHeight": 60,
+        "table.padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "table.scrollbarColor": "rgb(35,121,207)",
+        "table.scrollbarGap": 0,
+        "table.scrollbarWidth": 4,
+        "table.scrollbarWidthAbsolute": false,
+        "table.scrollSpeed": 1,
+        "table.scrollable": false,
+        "table.pannable": true,
+        "table.autoHideScrollbar": false,
+        "table.momentumScroll": true,
+        "table.stopPropagation": false,
+        "table.resetWhenClear": false,
+        "dataModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2671949,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}},{\"c\":\"ht.Data\",\"i\":2671950,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}}]}"
+        },
+        "columnModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2671951,\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671952,\"p\":{\"name\":\"r\",\"displayName\":\"R\"},\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671953,\"p\":{\"name\":\"s\",\"displayName\":\"S\"},\"s\":{\"visible\":true,\"width\":\"0.1\",\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671954,\"p\":{\"name\":\"t\",\"displayName\":\"T\"},\"s\":{\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}}]}"
+        },
+        "cornerRadius": 5,
+        "title": "A-HVU-2F-D1/D"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671803,
+      "p": {
+        "displayName": "billboard",
+        "parent": {
+          "__i": 2671769
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/billboard.json",
+        "position": {
+          "x": 1017.31768,
+          "y": 608.31582
+        },
+        "scale": {
+          "x": 0.8,
+          "y": 0.8
+        },
+        "width": 240,
+        "height": 150,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "table.scrollWidth": 234.49913,
+        "table.scrollHeight": 60,
+        "table.padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "table.scrollbarColor": "rgb(35,121,207)",
+        "table.scrollbarGap": 0,
+        "table.scrollbarWidth": 4,
+        "table.scrollbarWidthAbsolute": false,
+        "table.scrollSpeed": 1,
+        "table.scrollable": false,
+        "table.pannable": true,
+        "table.autoHideScrollbar": false,
+        "table.momentumScroll": true,
+        "table.stopPropagation": false,
+        "table.resetWhenClear": false,
+        "dataModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2671955,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}},{\"c\":\"ht.Data\",\"i\":2671956,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}}]}"
+        },
+        "columnModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2671957,\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671958,\"p\":{\"name\":\"r\",\"displayName\":\"R\"},\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671959,\"p\":{\"name\":\"s\",\"displayName\":\"S\"},\"s\":{\"visible\":true,\"width\":\"0.1\",\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671960,\"p\":{\"name\":\"t\",\"displayName\":\"T\"},\"s\":{\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}}]}"
+        },
+        "cornerRadius": 5,
+        "title": "A-HVU-2F-D1/U"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671804,
+      "p": {
+        "displayName": "billboard",
+        "parent": {
+          "__i": 2671769
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/billboard.json",
+        "position": {
+          "x": 1017.31768,
+          "y": 923
+        },
+        "scale": {
+          "x": 0.8,
+          "y": 0.8
+        },
+        "width": 240,
+        "height": 150,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "table.scrollWidth": 234.49913,
+        "table.scrollHeight": 60,
+        "table.padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "table.scrollbarColor": "rgb(35,121,207)",
+        "table.scrollbarGap": 0,
+        "table.scrollbarWidth": 4,
+        "table.scrollbarWidthAbsolute": false,
+        "table.scrollSpeed": 1,
+        "table.scrollable": false,
+        "table.pannable": true,
+        "table.autoHideScrollbar": false,
+        "table.momentumScroll": true,
+        "table.stopPropagation": false,
+        "table.resetWhenClear": false,
+        "dataModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2671961,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}},{\"c\":\"ht.Data\",\"i\":2671962,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}}]}"
+        },
+        "columnModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2671963,\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671964,\"p\":{\"name\":\"r\",\"displayName\":\"R\"},\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671965,\"p\":{\"name\":\"s\",\"displayName\":\"S\"},\"s\":{\"visible\":true,\"width\":\"0.1\",\"labelFont\":\"12px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671966,\"p\":{\"name\":\"t\",\"displayName\":\"T\"},\"s\":{\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}}]}"
+        },
+        "cornerRadius": 5,
+        "title": "A-HVU-2F-U1-1"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 2671805,
+      "p": {
+        "position": {
+          "x": 1331.45045,
+          "y": 573.48811
+        },
+        "anchor": {
+          "x": 0.55303,
+          "y": 0.47571
+        },
+        "width": 392.62686,
+        "height": 957.02768
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 2671806,
+      "p": {
+        "displayName": "line",
+        "parent": {
+          "__i": 2671805
+        },
+        "position": {
+          "x": 1209.30884,
+          "y": 296.35845
+        },
+        "anchor": {
+          "x": 0.49095,
+          "y": 0.13884
+        },
+        "width": 102.76341,
+        "height": 832.85352
+      },
+      "s": {
+        "2d.movable": false,
+        "2d.selectable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671807,
+      "p": {
+        "parent": {
+          "__i": 2671806
+        },
+        "position": {
+          "x": 1158.90675,
+          "y": 520.8322
+        },
+        "width": 0.1,
+        "height": 111.2956,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 1158.90675,
+              "y": 465.1844
+            },
+            {
+              "x": 1158.90675,
+              "y": 576.48
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671808,
+      "p": {
+        "parent": {
+          "__i": 2671806
+        },
+        "position": {
+          "x": 1158.95675,
+          "y": 205.99114
+        },
+        "width": 0,
+        "height": 50.53771,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 1158.95675,
+              "y": 180.72229
+            },
+            {
+              "x": 1158.95675,
+              "y": 231.26
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671809,
+      "p": {
+        "parent": {
+          "__i": 2671806
+        },
+        "position": {
+          "x": 1158.95675,
+          "y": 352.22226
+        },
+        "width": 0,
+        "height": 119.54471,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 1158.95675,
+              "y": 292.44991
+            },
+            {
+              "x": 1158.95675,
+              "y": 411.99462
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671810,
+      "p": {
+        "parent": {
+          "__i": 2671806
+        },
+        "position": {
+          "x": 1261.02148,
+          "y": 243.17172
+        },
+        "width": 0,
+        "height": 124.89888,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 1261.02148,
+              "y": 180.72229
+            },
+            {
+              "x": 1261.02148,
+              "y": 305.62116
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671811,
+      "p": {
+        "parent": {
+          "__i": 2671806
+        },
+        "position": {
+          "x": 1210.01912,
+          "y": 379.27343
+        },
+        "width": 102.00473,
+        "height": 23.0022,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 1261.02148,
+              "y": 367.77233
+            },
+            {
+              "x": 1261.02148,
+              "y": 390.77453
+            },
+            {
+              "x": 1159.01675,
+              "y": 390.77453
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671812,
+      "p": {
+        "parent": {
+          "__i": 2671806
+        },
+        "position": {
+          "x": 1158.90675,
+          "y": 826.04874
+        },
+        "width": 0.1,
+        "height": 374.74385,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 1158.90675,
+              "y": 638.67682
+            },
+            {
+              "x": 1158.90675,
+              "y": 1013.42067
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671813,
+      "p": {
+        "parent": {
+          "__i": 2671806
+        },
+        "position": {
+          "x": 1261.62016,
+          "y": 584.2715
+        },
+        "width": 0,
+        "height": 128.543,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 1261.62016,
+              "y": 520
+            },
+            {
+              "x": 1261.62016,
+              "y": 648.543
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671814,
+      "p": {
+        "parent": {
+          "__i": 2671806
+        },
+        "position": {
+          "x": 1261.62016,
+          "y": 798.40001
+        },
+        "width": 0,
+        "height": 173.88601,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 1261.62016,
+              "y": 711.457
+            },
+            {
+              "x": 1261.62016,
+              "y": 885.34301
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671815,
+      "p": {
+        "parent": {
+          "__i": 2671806
+        },
+        "position": {
+          "x": 1261.62016,
+          "y": 980.6914
+        },
+        "width": 0,
+        "height": 65.76881,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 1261.62016,
+              "y": 947.80699
+            },
+            {
+              "x": 1261.62016,
+              "y": 1013.5758
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671816,
+      "p": {
+        "displayName": "dash",
+        "parent": {
+          "__i": 2671806
+        },
+        "position": {
+          "x": 1210.23885,
+          "y": 290.27641
+        },
+        "width": 81.09311,
+        "height": 58.38029,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 1169.69229,
+              "y": 261.08626
+            },
+            {
+              "x": 1181.19984,
+              "y": 278.65809
+            },
+            {
+              "x": 1236.55951,
+              "y": 278.65809
+            },
+            {
+              "x": 1250.7854,
+              "y": 319.46655
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "border.width": 3,
+        "shape.border.pattern": [
+          10,
+          8
+        ],
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671817,
+      "p": {
+        "displayName": "dash",
+        "parent": {
+          "__i": 2671806
+        },
+        "position": {
+          "x": 1206.99432,
+          "y": 639.94633
+        },
+        "width": 80.27514,
+        "height": 46.78297,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 1166.85675,
+              "y": 616.55485
+            },
+            {
+              "x": 1169.70193,
+              "y": 621.11248
+            },
+            {
+              "x": 1177.82627,
+              "y": 634.12668
+            },
+            {
+              "x": 1230.59764,
+              "y": 634.12668
+            },
+            {
+              "x": 1247.13189,
+              "y": 663.33782
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "border.width": 3,
+        "shape.border.pattern": [
+          10,
+          10
+        ],
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671818,
+      "p": {
+        "displayName": "start",
+        "parent": {
+          "__i": 2671805
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/arrow.json",
+        "position": {
+          "x": 1159.3173,
+          "y": 174.47232
+        },
+        "width": 40,
+        "height": 20,
+        "tall": 20
+      },
+      "s": {
+        "shadow2.color": "rgb(122,122,122)",
+        "shadow2.blur": 5,
+        "shadow2.offset.x": 2,
+        "shadow2.offset.y": 2,
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "lineColor": "rgb(255,0,0)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671819,
+      "p": {
+        "displayName": "start",
+        "parent": {
+          "__i": 2671805
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/arrow.json",
+        "position": {
+          "x": 1261.58361,
+          "y": 174.47232
+        },
+        "width": 40,
+        "height": 20,
+        "tall": 20
+      },
+      "s": {
+        "shadow2.color": "rgb(122,122,122)",
+        "shadow2.blur": 5,
+        "shadow2.offset.x": 2,
+        "shadow2.offset.y": 2,
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "lineColor": "rgb(255,0,0)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671820,
+      "p": {
+        "displayName": "label",
+        "parent": {
+          "__i": 2671805
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/label.json",
+        "position": {
+          "x": 1159.3173,
+          "y": 138.47232
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 100,
+        "height": 45,
+        "tall": 20
+      },
+      "s": {
+        "interactive": true,
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "value1": "A-HV CT-1-3"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671821,
+      "p": {
+        "displayName": "label",
+        "parent": {
+          "__i": 2671805
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/label.json",
+        "position": {
+          "x": 1261.58361,
+          "y": 138.47232
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 100,
+        "height": 45,
+        "tall": 20
+      },
+      "s": {
+        "interactive": true,
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "borderStyle": {
+          "color": [
+            "linear",
+            0.5,
+            0,
+            0.5,
+            1,
+            0,
+            "rgb(194,194,194)",
+            1,
+            "rgb(214,214,214)"
+          ],
+          "width": 1,
+          "dashOffset": 0,
+          "cap": "butt",
+          "join": "round",
+          "cornerRadius": [
+            3
+          ]
+        },
+        "value1": "A-HV CT-5-2"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671822,
+      "p": {
+        "displayName": "1",
+        "parent": {
+          "__i": 2671805
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/1.json",
+        "position": {
+          "x": 1158.95675,
+          "y": 426.94991
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 40,
+        "height": 40,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "lineColor": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671823,
+      "p": {
+        "displayName": "2",
+        "parent": {
+          "__i": 2671805
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/2.json",
+        "rotation": 3.14159,
+        "position": {
+          "x": 1158.95675,
+          "y": 450.73566
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 40,
+        "height": 40,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "lineColor": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671824,
+      "p": {
+        "displayName": "3 2",
+        "parent": {
+          "__i": 2671805
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/3 2.json",
+        "position": {
+          "x": 1158.95675,
+          "y": 261.94991
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 40,
+        "height": 70,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "borderColor": "rgb(255,255,255)",
+        "lineColor": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671825,
+      "p": {
+        "displayName": "3 2",
+        "parent": {
+          "__i": 2671805
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/3 2.json",
+        "position": {
+          "x": 1261.02148,
+          "y": 336.94991
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 40,
+        "height": 70,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "borderColor": "rgb(255,255,255)",
+        "lineColor": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671826,
+      "p": {
+        "displayName": "on",
+        "parent": {
+          "__i": 2671805
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/on 3.json",
+        "position": {
+          "x": 1168.8934,
+          "y": 608.31582
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 40,
+        "height": 72,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "lineColor": "rgb(255,255,255)",
+        "state": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671827,
+      "p": {
+        "displayName": "text",
+        "parent": {
+          "__i": 2671805
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/state2.json",
+        "position": {
+          "x": 1230.3173,
+          "y": 441.37665
+        },
+        "width": 100,
+        "height": 52,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "text": "A -TRU 2F-U1 3,000kVA",
+        "value1": "A-TRU",
+        "value2": "2F-U1",
+        "value3": "3,000kVA"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671828,
+      "p": {
+        "displayName": "state",
+        "parent": {
+          "__i": 2671805
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/state.json",
+        "position": {
+          "x": 1215.58361,
+          "y": 261.94991
+        },
+        "width": 80,
+        "height": 30,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671829,
+      "p": {
+        "displayName": "on",
+        "parent": {
+          "__i": 2671805
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/on 3.json",
+        "position": {
+          "x": 1271.44934,
+          "y": 680.31582
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 40,
+        "height": 72,
+        "tall": 20
+      },
+      "s": {
+        "select.width": 0
+      },
+      "a": {
+        "lineColor": "rgb(255,255,255)",
+        "state": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671830,
+      "p": {
+        "displayName": "on",
+        "parent": {
+          "__i": 2671805
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/on 3.json",
+        "position": {
+          "x": 1271.44934,
+          "y": 917
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 40,
+        "height": 72,
+        "tall": 20
+      },
+      "s": {
+        "select.width": 0
+      },
+      "a": {
+        "lineColor": "rgb(255,255,255)",
+        "state": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671831,
+      "p": {
+        "displayName": "label",
+        "parent": {
+          "__i": 2671805
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/label.json",
+        "position": {
+          "x": 1159.3173,
+          "y": 1055
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 100,
+        "height": 45,
+        "tall": 20
+      },
+      "s": {
+        "interactive": true,
+        "2d.movable": false,
+        "2d.editable": false,
+        "select.width": 0
+      },
+      "a": {
+        "title": "TO",
+        "borderStyle": {
+          "color": [
+            "linear",
+            0.5,
+            0,
+            0.5,
+            1,
+            0,
+            "rgb(194,194,194)",
+            1,
+            "rgb(214,214,214)"
+          ],
+          "width": 1,
+          "dashOffset": 0,
+          "cap": "butt",
+          "join": "round",
+          "cornerRadius": [
+            3
+          ]
+        },
+        "value1": "A-LVU 3F-U1-5"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671832,
+      "p": {
+        "displayName": "label",
+        "parent": {
+          "__i": 2671805
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/label.json",
+        "position": {
+          "x": 1261.58361,
+          "y": 1055
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 100,
+        "height": 45,
+        "tall": 20
+      },
+      "s": {
+        "interactive": true,
+        "2d.movable": false,
+        "2d.editable": false,
+        "select.width": 0
+      },
+      "a": {
+        "title": "TO",
+        "borderStyle": {
+          "color": [
+            "linear",
+            0.5,
+            0,
+            0.5,
+            1,
+            0,
+            "rgb(194,194,194)",
+            1,
+            "rgb(214,214,214)"
+          ],
+          "width": 1,
+          "dashOffset": 0,
+          "cap": "butt",
+          "join": "round",
+          "cornerRadius": [
+            3
+          ]
+        },
+        "value1": "A-LVU 3F-U1-2"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671833,
+      "p": {
+        "displayName": "end",
+        "parent": {
+          "__i": 2671805
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/arrow.json",
+        "position": {
+          "x": 1159.3173,
+          "y": 1016.15
+        },
+        "width": 40,
+        "height": 20,
+        "tall": 20
+      },
+      "s": {
+        "shadow2.color": "rgb(122,122,122)",
+        "shadow2.blur": 5,
+        "shadow2.offset.x": 2,
+        "shadow2.offset.y": 2,
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "lineColor": "rgb(255,0,0)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671834,
+      "p": {
+        "displayName": "end",
+        "parent": {
+          "__i": 2671805
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/arrow.json",
+        "position": {
+          "x": 1261.58361,
+          "y": 1016.15
+        },
+        "width": 40,
+        "height": 20,
+        "tall": 20
+      },
+      "s": {
+        "shadow2.color": "rgb(122,122,122)",
+        "shadow2.blur": 5,
+        "shadow2.offset.x": 2,
+        "shadow2.offset.y": 2,
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "lineColor": "rgb(255,0,0)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671835,
+      "p": {
+        "displayName": "state",
+        "parent": {
+          "__i": 2671805
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/state.json",
+        "position": {
+          "x": 1214.15549,
+          "y": 617.4185
+        },
+        "width": 80,
+        "height": 30,
+        "tall": 20
+      },
+      "s": {
+        "select.width": 0
+      },
+      "a": {
+        "font": "13px Pretendard Variable"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671836,
+      "p": {
+        "displayName": "billboard",
+        "parent": {
+          "__i": 2671805
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/billboard.json",
+        "position": {
+          "x": 1410.94416,
+          "y": 415.37665
+        },
+        "scale": {
+          "x": 0.8,
+          "y": 0.8
+        },
+        "width": 240,
+        "height": 150,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "table.scrollWidth": 234.49913,
+        "table.scrollHeight": 60,
+        "table.padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "table.scrollbarColor": "rgb(35,121,207)",
+        "table.scrollbarGap": 0,
+        "table.scrollbarWidth": 4,
+        "table.scrollbarWidthAbsolute": false,
+        "table.scrollSpeed": 1,
+        "table.scrollable": false,
+        "table.pannable": true,
+        "table.autoHideScrollbar": false,
+        "table.momentumScroll": true,
+        "table.stopPropagation": false,
+        "table.resetWhenClear": false,
+        "dataModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2671967,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}},{\"c\":\"ht.Data\",\"i\":2671968,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}}]}"
+        },
+        "columnModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2671969,\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671970,\"p\":{\"name\":\"r\",\"displayName\":\"R\"},\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671971,\"p\":{\"name\":\"s\",\"displayName\":\"S\"},\"s\":{\"visible\":true,\"width\":\"0.1\",\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671972,\"p\":{\"name\":\"t\",\"displayName\":\"T\"},\"s\":{\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}}]}"
+        },
+        "cornerRadius": 5,
+        "title": "A-HVU-3F-U2/U"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671837,
+      "p": {
+        "displayName": "billboard",
+        "parent": {
+          "__i": 2671805
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/billboard.json",
+        "position": {
+          "x": 1410.94416,
+          "y": 251.53261
+        },
+        "scale": {
+          "x": 0.8,
+          "y": 0.8
+        },
+        "width": 240,
+        "height": 150,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "table.scrollWidth": 234.49913,
+        "table.scrollHeight": 60,
+        "table.padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "table.scrollbarColor": "rgb(35,121,207)",
+        "table.scrollbarGap": 0,
+        "table.scrollbarWidth": 4,
+        "table.scrollbarWidthAbsolute": false,
+        "table.scrollSpeed": 1,
+        "table.scrollable": false,
+        "table.pannable": true,
+        "table.autoHideScrollbar": false,
+        "table.momentumScroll": true,
+        "table.stopPropagation": false,
+        "table.resetWhenClear": false,
+        "dataModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2671973,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}},{\"c\":\"ht.Data\",\"i\":2671974,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}}]}"
+        },
+        "columnModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2671975,\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671976,\"p\":{\"name\":\"r\",\"displayName\":\"R\"},\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671977,\"p\":{\"name\":\"s\",\"displayName\":\"S\"},\"s\":{\"visible\":true,\"width\":\"0.1\",\"labelFont\":\"12px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671978,\"p\":{\"name\":\"t\",\"displayName\":\"T\"},\"s\":{\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}}]}"
+        },
+        "cornerRadius": 5,
+        "title": "A-HVU-3F-U2/D"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671838,
+      "p": {
+        "displayName": "billboard",
+        "parent": {
+          "__i": 2671805
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/billboard.json",
+        "position": {
+          "x": 1410.94416,
+          "y": 765.65791
+        },
+        "scale": {
+          "x": 0.8,
+          "y": 0.8
+        },
+        "width": 240,
+        "height": 150,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "table.scrollWidth": 234.49913,
+        "table.scrollHeight": 60,
+        "table.padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "table.scrollbarColor": "rgb(35,121,207)",
+        "table.scrollbarGap": 0,
+        "table.scrollbarWidth": 4,
+        "table.scrollbarWidthAbsolute": false,
+        "table.scrollSpeed": 1,
+        "table.scrollable": false,
+        "table.pannable": true,
+        "table.autoHideScrollbar": false,
+        "table.momentumScroll": true,
+        "table.stopPropagation": false,
+        "table.resetWhenClear": false,
+        "dataModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2671979,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}},{\"c\":\"ht.Data\",\"i\":2671980,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}}]}"
+        },
+        "columnModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2671981,\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671982,\"p\":{\"name\":\"r\",\"displayName\":\"R\"},\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671983,\"p\":{\"name\":\"s\",\"displayName\":\"S\"},\"s\":{\"visible\":true,\"width\":\"0.1\",\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671984,\"p\":{\"name\":\"t\",\"displayName\":\"T\"},\"s\":{\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}}]}"
+        },
+        "cornerRadius": 5,
+        "title": "A-HVU-3F-U2/D"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671839,
+      "p": {
+        "displayName": "billboard",
+        "parent": {
+          "__i": 2671805
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/billboard.json",
+        "position": {
+          "x": 1410.94416,
+          "y": 608.31582
+        },
+        "scale": {
+          "x": 0.8,
+          "y": 0.8
+        },
+        "width": 240,
+        "height": 150,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "table.scrollWidth": 234.49913,
+        "table.scrollHeight": 60,
+        "table.padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "table.scrollbarColor": "rgb(35,121,207)",
+        "table.scrollbarGap": 0,
+        "table.scrollbarWidth": 4,
+        "table.scrollbarWidthAbsolute": false,
+        "table.scrollSpeed": 1,
+        "table.scrollable": false,
+        "table.pannable": true,
+        "table.autoHideScrollbar": false,
+        "table.momentumScroll": true,
+        "table.stopPropagation": false,
+        "table.resetWhenClear": false,
+        "dataModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2671985,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}},{\"c\":\"ht.Data\",\"i\":2671986,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}}]}"
+        },
+        "columnModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2671987,\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671988,\"p\":{\"name\":\"r\",\"displayName\":\"R\"},\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671989,\"p\":{\"name\":\"s\",\"displayName\":\"S\"},\"s\":{\"visible\":true,\"width\":\"0.1\",\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671990,\"p\":{\"name\":\"t\",\"displayName\":\"T\"},\"s\":{\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}}]}"
+        },
+        "cornerRadius": 5,
+        "title": "A-HVU-3F-U2/U"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671840,
+      "p": {
+        "displayName": "billboard",
+        "parent": {
+          "__i": 2671805
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/billboard.json",
+        "position": {
+          "x": 1410.94416,
+          "y": 923
+        },
+        "scale": {
+          "x": 0.8,
+          "y": 0.8
+        },
+        "width": 240,
+        "height": 150,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "table.scrollWidth": 234.49913,
+        "table.scrollHeight": 60,
+        "table.padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "table.scrollbarColor": "rgb(35,121,207)",
+        "table.scrollbarGap": 0,
+        "table.scrollbarWidth": 4,
+        "table.scrollbarWidthAbsolute": false,
+        "table.scrollSpeed": 1,
+        "table.scrollable": false,
+        "table.pannable": true,
+        "table.autoHideScrollbar": false,
+        "table.momentumScroll": true,
+        "table.stopPropagation": false,
+        "table.resetWhenClear": false,
+        "dataModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2671991,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}},{\"c\":\"ht.Data\",\"i\":2671992,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}}]}"
+        },
+        "columnModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2671993,\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671994,\"p\":{\"name\":\"r\",\"displayName\":\"R\"},\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671995,\"p\":{\"name\":\"s\",\"displayName\":\"S\"},\"s\":{\"visible\":true,\"width\":\"0.1\",\"labelFont\":\"12px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2671996,\"p\":{\"name\":\"t\",\"displayName\":\"T\"},\"s\":{\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}}]}"
+        },
+        "cornerRadius": 5,
+        "title": "A-HVU-3F-U2/1"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 2671841,
+      "p": {
+        "position": {
+          "x": 1708.45045,
+          "y": 573.48811
+        },
+        "anchor": {
+          "x": 0.50095,
+          "y": 0.47571
+        },
+        "width": 398.49447,
+        "height": 957.02768
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 2671842,
+      "p": {
+        "displayName": "line",
+        "parent": {
+          "__i": 2671841
+        },
+        "position": {
+          "x": 1603.30884,
+          "y": 296.35845
+        },
+        "anchor": {
+          "x": 0.49196,
+          "y": 0.13884
+        },
+        "width": 102.34984,
+        "height": 832.85352
+      },
+      "s": {
+        "2d.movable": false,
+        "2d.selectable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671843,
+      "p": {
+        "parent": {
+          "__i": 2671842
+        },
+        "position": {
+          "x": 1552.95675,
+          "y": 205.99114
+        },
+        "width": 0,
+        "height": 50.53771,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 1552.95675,
+              "y": 180.72229
+            },
+            {
+              "x": 1552.95675,
+              "y": 231.26
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671844,
+      "p": {
+        "parent": {
+          "__i": 2671842
+        },
+        "position": {
+          "x": 1552.95675,
+          "y": 352.22226
+        },
+        "width": 0,
+        "height": 119.54471,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 1552.95675,
+              "y": 292.44991
+            },
+            {
+              "x": 1552.95675,
+              "y": 411.99462
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671845,
+      "p": {
+        "parent": {
+          "__i": 2671842
+        },
+        "position": {
+          "x": 1655.02148,
+          "y": 243.17172
+        },
+        "width": 0,
+        "height": 124.89888,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 1655.02148,
+              "y": 180.72229
+            },
+            {
+              "x": 1655.02148,
+              "y": 305.62116
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671846,
+      "p": {
+        "parent": {
+          "__i": 2671842
+        },
+        "position": {
+          "x": 1604.01912,
+          "y": 379.27343
+        },
+        "width": 102.00473,
+        "height": 23.0022,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 1655.02148,
+              "y": 367.77233
+            },
+            {
+              "x": 1655.02148,
+              "y": 390.77453
+            },
+            {
+              "x": 1553.01675,
+              "y": 390.77453
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671847,
+      "p": {
+        "parent": {
+          "__i": 2671842
+        },
+        "position": {
+          "x": 1553.06675,
+          "y": 826.04874
+        },
+        "width": 0.1,
+        "height": 374.74385,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 1553.06675,
+              "y": 638.67682
+            },
+            {
+              "x": 1553.06675,
+              "y": 1013.42067
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671848,
+      "p": {
+        "parent": {
+          "__i": 2671842
+        },
+        "position": {
+          "x": 1553.06675,
+          "y": 520.8322
+        },
+        "width": 0.1,
+        "height": 111.2956,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 1553.06675,
+              "y": 465.1844
+            },
+            {
+              "x": 1553.06675,
+              "y": 576.48
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671849,
+      "p": {
+        "parent": {
+          "__i": 2671842
+        },
+        "position": {
+          "x": 1655.30659,
+          "y": 798.40001
+        },
+        "width": 0,
+        "height": 173.88601,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 1655.30659,
+              "y": 711.457
+            },
+            {
+              "x": 1655.30659,
+              "y": 885.34301
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671850,
+      "p": {
+        "parent": {
+          "__i": 2671842
+        },
+        "position": {
+          "x": 1655.30659,
+          "y": 980.6914
+        },
+        "width": 0,
+        "height": 65.76881,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 1655.30659,
+              "y": 947.80699
+            },
+            {
+              "x": 1655.30659,
+              "y": 1013.5758
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671851,
+      "p": {
+        "displayName": "dash",
+        "parent": {
+          "__i": 2671842
+        },
+        "position": {
+          "x": 1604.58013,
+          "y": 639.94633
+        },
+        "width": 80.27514,
+        "height": 46.78297,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 1564.44256,
+              "y": 616.55485
+            },
+            {
+              "x": 1567.28774,
+              "y": 621.11248
+            },
+            {
+              "x": 1575.41208,
+              "y": 634.12668
+            },
+            {
+              "x": 1628.18345,
+              "y": 634.12668
+            },
+            {
+              "x": 1644.7177,
+              "y": 663.33782
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "border.width": 3,
+        "shape.border.pattern": [
+          10,
+          10
+        ]
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2671852,
+      "p": {
+        "displayName": "dash",
+        "parent": {
+          "__i": 2671842
+        },
+        "position": {
+          "x": 1603.88469,
+          "y": 290.27641
+        },
+        "width": 80.88426,
+        "height": 58.38029,
+        "tall": 20,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 1563.44256,
+              "y": 261.08626
+            },
+            {
+              "x": 1574.92047,
+              "y": 278.65809
+            },
+            {
+              "x": 1630.13757,
+              "y": 278.65809
+            },
+            {
+              "x": 1644.32682,
+              "y": 319.46655
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(255,255,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round",
+        "border.width": 3,
+        "shape.border.pattern": [
+          10,
+          8
+        ],
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671853,
+      "p": {
+        "displayName": "start",
+        "parent": {
+          "__i": 2671841
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/arrow.json",
+        "position": {
+          "x": 1553.82359,
+          "y": 174.47232
+        },
+        "width": 40,
+        "height": 20,
+        "tall": 20
+      },
+      "s": {
+        "shadow2.color": "rgb(122,122,122)",
+        "shadow2.blur": 5,
+        "shadow2.offset.x": 2,
+        "shadow2.offset.y": 2,
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "lineColor": "rgb(255,0,0)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671854,
+      "p": {
+        "displayName": "start",
+        "parent": {
+          "__i": 2671841
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/arrow.json",
+        "position": {
+          "x": 1655.27963,
+          "y": 174.47232
+        },
+        "width": 40,
+        "height": 20,
+        "tall": 20
+      },
+      "s": {
+        "shadow2.color": "rgb(122,122,122)",
+        "shadow2.blur": 5,
+        "shadow2.offset.x": 2,
+        "shadow2.offset.y": 2,
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "lineColor": "rgb(255,0,0)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671855,
+      "p": {
+        "displayName": "label",
+        "parent": {
+          "__i": 2671841
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/label.json",
+        "position": {
+          "x": 1553.82359,
+          "y": 138.47232
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 100,
+        "height": 45,
+        "tall": 20
+      },
+      "s": {
+        "interactive": true,
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "value1": "A-HV CT-1-3"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671856,
+      "p": {
+        "displayName": "label",
+        "parent": {
+          "__i": 2671841
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/label.json",
+        "position": {
+          "x": 1654.82435,
+          "y": 138.47232
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 100,
+        "height": 45,
+        "tall": 20
+      },
+      "s": {
+        "interactive": true,
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "value1": "A-HV CT-5-2"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671857,
+      "p": {
+        "displayName": "1",
+        "parent": {
+          "__i": 2671841
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/1.json",
+        "position": {
+          "x": 1552.82359,
+          "y": 426.94991
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 40,
+        "height": 40,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "lineColor": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671858,
+      "p": {
+        "displayName": "2",
+        "parent": {
+          "__i": 2671841
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/2.json",
+        "rotation": 3.14159,
+        "position": {
+          "x": 1552.82359,
+          "y": 450.73566
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 40,
+        "height": 40,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "lineColor": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671859,
+      "p": {
+        "displayName": "3 2",
+        "parent": {
+          "__i": 2671841
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/3 2.json",
+        "position": {
+          "x": 1552.82359,
+          "y": 261.94991
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 40,
+        "height": 70,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "borderColor": "rgb(255,255,255)",
+        "lineColor": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671860,
+      "p": {
+        "displayName": "3 2",
+        "parent": {
+          "__i": 2671841
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/3 2.json",
+        "position": {
+          "x": 1654.82435,
+          "y": 336.94991
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 40,
+        "height": 70,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "borderColor": "rgb(255,255,255)",
+        "lineColor": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671861,
+      "p": {
+        "displayName": "on",
+        "parent": {
+          "__i": 2671841
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/on 3.json",
+        "position": {
+          "x": 1562.92314,
+          "y": 608.31582
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 40,
+        "height": 72,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "lineColor": "rgb(255,255,255)",
+        "state": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671862,
+      "p": {
+        "displayName": "text",
+        "parent": {
+          "__i": 2671841
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/state2.json",
+        "position": {
+          "x": 1626.18414,
+          "y": 441.37665
+        },
+        "width": 100,
+        "height": 52,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "text": "A -TRU 2F-U1 3,000kVA",
+        "value1": "A-TRU",
+        "value2": "2F-U1",
+        "value3": "3,000kVA"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671863,
+      "p": {
+        "displayName": "state",
+        "parent": {
+          "__i": 2671841
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/state.json",
+        "position": {
+          "x": 1609.82435,
+          "y": 261.94991
+        },
+        "width": 80,
+        "height": 30,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671864,
+      "p": {
+        "displayName": "on",
+        "parent": {
+          "__i": 2671841
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/on 3.json",
+        "position": {
+          "x": 1665.21762,
+          "y": 680.31582
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 40,
+        "height": 72,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "lineColor": "rgb(255,255,255)",
+        "state": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671865,
+      "p": {
+        "displayName": "on",
+        "parent": {
+          "__i": 2671841
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/on 3.json",
+        "position": {
+          "x": 1665.21762,
+          "y": 917
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 40,
+        "height": 72,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "lineColor": "rgb(255,255,255)",
+        "state": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671866,
+      "p": {
+        "displayName": "label",
+        "parent": {
+          "__i": 2671841
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/label.json",
+        "position": {
+          "x": 1553.82359,
+          "y": 1055
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 100,
+        "height": 45,
+        "tall": 20
+      },
+      "s": {
+        "interactive": true,
+        "2d.movable": false,
+        "2d.editable": false,
+        "select.width": 0
+      },
+      "a": {
+        "title": "TO",
+        "borderStyle": {
+          "color": [
+            "linear",
+            0.5,
+            0,
+            0.5,
+            1,
+            0,
+            "rgb(194,194,194)",
+            1,
+            "rgb(214,214,214)"
+          ],
+          "width": 1,
+          "dashOffset": 0,
+          "cap": "butt",
+          "join": "round",
+          "cornerRadius": [
+            3
+          ]
+        },
+        "value1": "A-LVU 3F-D1-5"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671867,
+      "p": {
+        "displayName": "label",
+        "parent": {
+          "__i": 2671841
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/label.json",
+        "position": {
+          "x": 1654.82435,
+          "y": 1055
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "width": 100,
+        "height": 45,
+        "tall": 20
+      },
+      "s": {
+        "interactive": true,
+        "2d.movable": false,
+        "2d.editable": false,
+        "select.width": 0
+      },
+      "a": {
+        "title": "TO",
+        "borderStyle": {
+          "color": [
+            "linear",
+            0.5,
+            0,
+            0.5,
+            1,
+            0,
+            "rgb(194,194,194)",
+            1,
+            "rgb(214,214,214)"
+          ],
+          "width": 1,
+          "dashOffset": 0,
+          "cap": "butt",
+          "join": "round",
+          "cornerRadius": [
+            3
+          ]
+        },
+        "value1": "A-LVU 3F-D1-2"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671868,
+      "p": {
+        "displayName": "state",
+        "parent": {
+          "__i": 2671841
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/state.json",
+        "position": {
+          "x": 1611.7413,
+          "y": 617.4185
+        },
+        "width": 80,
+        "height": 30,
+        "tall": 20
+      },
+      "s": {
+        "select.width": 0
+      },
+      "a": {
+        "font": "13px Pretendard Variable"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671869,
+      "p": {
+        "displayName": "end",
+        "parent": {
+          "__i": 2671841
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/arrow.json",
+        "position": {
+          "x": 1552.82359,
+          "y": 1016.15
+        },
+        "width": 40,
+        "height": 20,
+        "tall": 20
+      },
+      "s": {
+        "shadow2.color": "rgb(122,122,122)",
+        "shadow2.blur": 5,
+        "shadow2.offset.x": 2,
+        "shadow2.offset.y": 2,
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "lineColor": "rgb(255,0,0)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671870,
+      "p": {
+        "displayName": "end",
+        "parent": {
+          "__i": 2671841
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/arrow.json",
+        "position": {
+          "x": 1655.27963,
+          "y": 1016.15
+        },
+        "width": 40,
+        "height": 20,
+        "tall": 20
+      },
+      "s": {
+        "shadow2.color": "rgb(122,122,122)",
+        "shadow2.blur": 5,
+        "shadow2.offset.x": 2,
+        "shadow2.offset.y": 2,
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "lineColor": "rgb(255,0,0)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671871,
+      "p": {
+        "displayName": "billboard",
+        "parent": {
+          "__i": 2671841
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/billboard.json",
+        "position": {
+          "x": 1811.31806,
+          "y": 415.37665
+        },
+        "scale": {
+          "x": 0.8,
+          "y": 0.8
+        },
+        "width": 240,
+        "height": 150,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "table.scrollWidth": 234.49913,
+        "table.scrollHeight": 60,
+        "table.padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "table.scrollbarColor": "rgb(35,121,207)",
+        "table.scrollbarGap": 0,
+        "table.scrollbarWidth": 4,
+        "table.scrollbarWidthAbsolute": false,
+        "table.scrollSpeed": 1,
+        "table.scrollable": false,
+        "table.pannable": true,
+        "table.autoHideScrollbar": false,
+        "table.momentumScroll": true,
+        "table.stopPropagation": false,
+        "table.resetWhenClear": false,
+        "dataModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2671997,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}},{\"c\":\"ht.Data\",\"i\":2671998,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}}]}"
+        },
+        "columnModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2671999,\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2672000,\"p\":{\"name\":\"r\",\"displayName\":\"R\"},\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2672001,\"p\":{\"name\":\"s\",\"displayName\":\"S\"},\"s\":{\"visible\":true,\"width\":\"0.1\",\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2672002,\"p\":{\"name\":\"t\",\"displayName\":\"T\"},\"s\":{\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}}]}"
+        },
+        "cornerRadius": 5,
+        "title": "A-HVU-3F-D2/U"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671872,
+      "p": {
+        "displayName": "billboard",
+        "parent": {
+          "__i": 2671841
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/billboard.json",
+        "position": {
+          "x": 1811.31806,
+          "y": 251.53261
+        },
+        "scale": {
+          "x": 0.8,
+          "y": 0.8
+        },
+        "width": 240,
+        "height": 150,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "table.scrollWidth": 234.49913,
+        "table.scrollHeight": 60,
+        "table.padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "table.scrollbarColor": "rgb(35,121,207)",
+        "table.scrollbarGap": 0,
+        "table.scrollbarWidth": 4,
+        "table.scrollbarWidthAbsolute": false,
+        "table.scrollSpeed": 1,
+        "table.scrollable": false,
+        "table.pannable": true,
+        "table.autoHideScrollbar": false,
+        "table.momentumScroll": true,
+        "table.stopPropagation": false,
+        "table.resetWhenClear": false,
+        "dataModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2672003,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}},{\"c\":\"ht.Data\",\"i\":2672004,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}}]}"
+        },
+        "columnModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2672005,\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2672006,\"p\":{\"name\":\"r\",\"displayName\":\"R\"},\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2672007,\"p\":{\"name\":\"s\",\"displayName\":\"S\"},\"s\":{\"visible\":true,\"width\":\"0.1\",\"labelFont\":\"12px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2672008,\"p\":{\"name\":\"t\",\"displayName\":\"T\"},\"s\":{\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}}]}"
+        },
+        "cornerRadius": 5,
+        "title": "A-HVU-3F-D2/D"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671873,
+      "p": {
+        "displayName": "billboard",
+        "parent": {
+          "__i": 2671841
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/billboard.json",
+        "position": {
+          "x": 1811.31806,
+          "y": 765.65791
+        },
+        "scale": {
+          "x": 0.8,
+          "y": 0.8
+        },
+        "width": 240,
+        "height": 150,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "table.scrollWidth": 234.49913,
+        "table.scrollHeight": 60,
+        "table.padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "table.scrollbarColor": "rgb(35,121,207)",
+        "table.scrollbarGap": 0,
+        "table.scrollbarWidth": 4,
+        "table.scrollbarWidthAbsolute": false,
+        "table.scrollSpeed": 1,
+        "table.scrollable": false,
+        "table.pannable": true,
+        "table.autoHideScrollbar": false,
+        "table.momentumScroll": true,
+        "table.stopPropagation": false,
+        "table.resetWhenClear": false,
+        "dataModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2672009,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}},{\"c\":\"ht.Data\",\"i\":2672010,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}}]}"
+        },
+        "columnModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2672011,\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2672012,\"p\":{\"name\":\"r\",\"displayName\":\"R\"},\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2672013,\"p\":{\"name\":\"s\",\"displayName\":\"S\"},\"s\":{\"visible\":true,\"width\":\"0.1\",\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2672014,\"p\":{\"name\":\"t\",\"displayName\":\"T\"},\"s\":{\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}}]}"
+        },
+        "cornerRadius": 5,
+        "title": "A-HVU-3F-D2/D"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671874,
+      "p": {
+        "displayName": "billboard",
+        "parent": {
+          "__i": 2671841
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/billboard.json",
+        "position": {
+          "x": 1811.31806,
+          "y": 608.31582
+        },
+        "scale": {
+          "x": 0.8,
+          "y": 0.8
+        },
+        "width": 240,
+        "height": 150,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "table.scrollWidth": 234.49913,
+        "table.scrollHeight": 60,
+        "table.padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "table.scrollbarColor": "rgb(35,121,207)",
+        "table.scrollbarGap": 0,
+        "table.scrollbarWidth": 4,
+        "table.scrollbarWidthAbsolute": false,
+        "table.scrollSpeed": 1,
+        "table.scrollable": false,
+        "table.pannable": true,
+        "table.autoHideScrollbar": false,
+        "table.momentumScroll": true,
+        "table.stopPropagation": false,
+        "table.resetWhenClear": false,
+        "dataModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2672015,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}},{\"c\":\"ht.Data\",\"i\":2672016,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}}]}"
+        },
+        "columnModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2672017,\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2672018,\"p\":{\"name\":\"r\",\"displayName\":\"R\"},\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2672019,\"p\":{\"name\":\"s\",\"displayName\":\"S\"},\"s\":{\"visible\":true,\"width\":\"0.1\",\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2672020,\"p\":{\"name\":\"t\",\"displayName\":\"T\"},\"s\":{\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}}]}"
+        },
+        "cornerRadius": 5,
+        "title": "A-HVU-3F-D2/U"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671875,
+      "p": {
+        "displayName": "billboard",
+        "parent": {
+          "__i": 2671841
+        },
+        "image": "symbols/ioe/2024/죽전데이터센터/회로도/billboard.json",
+        "position": {
+          "x": 1811.31806,
+          "y": 923
+        },
+        "scale": {
+          "x": 0.8,
+          "y": 0.8
+        },
+        "width": 240,
+        "height": 150,
+        "tall": 20
+      },
+      "s": {
+        "2d.movable": false,
+        "select.width": 0
+      },
+      "a": {
+        "table.scrollWidth": 234.49913,
+        "table.scrollHeight": 60,
+        "table.padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "table.scrollbarColor": "rgb(35,121,207)",
+        "table.scrollbarGap": 0,
+        "table.scrollbarWidth": 4,
+        "table.scrollbarWidthAbsolute": false,
+        "table.scrollSpeed": 1,
+        "table.scrollable": false,
+        "table.pannable": true,
+        "table.autoHideScrollbar": false,
+        "table.momentumScroll": true,
+        "table.stopPropagation": false,
+        "table.resetWhenClear": false,
+        "dataModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2672021,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}},{\"c\":\"ht.Data\",\"i\":2672022,\"p\":{\"displayName\":\"data\"},\"a\":{\"r\":\"0\",\"s\":\"0\",\"t\":\"0\"}}]}"
+        },
+        "columnModel": {
+          "__dm": "{\"v\":\"8.0.6\",\"p\":{\"autoAdjustIndex\":true,\"hierarchicalRendering\":false},\"d\":[{\"c\":\"ht.Data\",\"i\":2672023,\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2672024,\"p\":{\"name\":\"r\",\"displayName\":\"R\"},\"s\":{\"visible\":true,\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2672025,\"p\":{\"name\":\"s\",\"displayName\":\"S\"},\"s\":{\"visible\":true,\"width\":\"0.1\",\"labelFont\":\"12px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}},{\"c\":\"ht.Data\",\"i\":2672026,\"p\":{\"name\":\"t\",\"displayName\":\"T\"},\"s\":{\"labelFont\":\"15px Pretendard Variable\",\"headLabelFont\":\"bold 16px Pretendard Variable\",\"headLabelColor\":\"rgb(255,255,255)\"}}]}"
+        },
+        "cornerRadius": 5,
+        "title": "A-HVU-3F-D2-1"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2671876,
+      "p": {
+        "displayName": "close",
+        "image": "symbols/ioe/2024/죽전데이터센터/button/close 2.json",
+        "host": {
+          "__i": 2671706
+        },
+        "position": {
+          "x": 1886.31646,
+          "y": 26.504
+        },
+        "width": 30,
+        "height": 30,
+        "tall": 20
+      },
+      "s": {
+        "select.width": 0,
+        "layout.h": "right",
+        "layout.v": "top",
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {window.showSystemDisplay(false);}",
+        "onEnter": "__ht__function(event, data, view) {view.getView().style.cursor = 'pointer';}",
+        "onLeave": "__ht__function(event, data, view) {view.getView().style.cursor = '';}",
+        "2d.movable": false
+      }
+    }
+  ],
+  "modified": "Fri Jul 25 2025 16:32:16 GMT+0900 (한국 표준시)",
+  "contentRect": {
+    "x": 0,
+    "y": 0,
+    "width": 1920,
+    "height": 1080
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "modified": "Mon Jul 21 2025 15:54:48 GMT+0900 (한국 표준시)",
+  "dataBindings": [
+    {
+      "attr": "value1",
+      "valueType": "String"
+    },
+    {
+      "attr": "value2",
+      "valueType": "String"
+    },
+    {
+      "attr": "value3",
+      "valueType": "Font"
+    },
+    {
+      "attr": "textColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(255,255,255)"
+    },
+    {
+      "attr": "font",
+      "valueType": "String"
+    }
+  ],
+  "width": 100,
+  "height": 52,
+  "comps": [
+    {
+      "type": "ht.drawing.textBox",
+      "displayName": "textBox",
+      "rect": [
+        1.91737,
+        0,
+        98.08263,
+        17.41394
+      ],
+      "onClick": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onClick.apply(this, arguments);\n}",
+      "onDoubleClick": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onDoubleClick.apply(this, arguments);\n}",
+      "onContextMenu": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onContextMenu.apply(this, arguments);\n}",
+      "onDown": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onDown.apply(this, arguments);\n}",
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onUp.apply(this, arguments);\n}",
+      "onMove": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onMove.apply(this, arguments);\n}",
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onEnter.apply(this, arguments);\n}",
+      "onHover": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onHover.apply(this, arguments);\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onLeave.apply(this, arguments);\n}",
+      "onBeginDrag": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onBeginDrag.apply(this, arguments);\n}",
+      "onDrag": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onDrag.apply(this, arguments);\n}",
+      "onEndDrag": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onEndDrag.apply(this, arguments);\n}",
+      "onScroll": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onScroll.apply(this, arguments);\n}",
+      "content": {
+        "func": "attr@value1",
+        "value": "VALUE"
+      },
+      "overflow": null,
+      "font": {
+        "func": "attr@font",
+        "value": "14px Pretendard Variable"
+      },
+      "color": {
+        "func": "attr@textColor"
+      },
+      "lineHeight": 15,
+      "letterGap": 1.1,
+      "scrollbarStyle": {
+        "scrollbarColor": "rgb(35,121,207)",
+        "scrollbarGap": 0,
+        "scrollbarWidth": 4,
+        "scrollbarWidthAbsolute": false,
+        "scrollbarInteractiveSize": 6,
+        "scrollSpeed": 1,
+        "scrollable": false,
+        "pannable": true,
+        "autoHideScrollbar": false,
+        "momentumScroll": true,
+        "stopPropagation": false
+      }
+    },
+    {
+      "type": "ht.drawing.textBox",
+      "displayName": "textBox",
+      "rect": [
+        1.91737,
+        17.29303,
+        98.08263,
+        17.41394
+      ],
+      "onClick": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onClick.apply(this, arguments);\n}",
+      "onDoubleClick": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onDoubleClick.apply(this, arguments);\n}",
+      "onContextMenu": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onContextMenu.apply(this, arguments);\n}",
+      "onDown": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onDown.apply(this, arguments);\n}",
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onUp.apply(this, arguments);\n}",
+      "onMove": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onMove.apply(this, arguments);\n}",
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onEnter.apply(this, arguments);\n}",
+      "onHover": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onHover.apply(this, arguments);\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onLeave.apply(this, arguments);\n}",
+      "onBeginDrag": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onBeginDrag.apply(this, arguments);\n}",
+      "onDrag": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onDrag.apply(this, arguments);\n}",
+      "onEndDrag": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onEndDrag.apply(this, arguments);\n}",
+      "onScroll": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onScroll.apply(this, arguments);\n}",
+      "content": {
+        "func": "attr@value2",
+        "value": "VALUE"
+      },
+      "overflow": null,
+      "font": {
+        "func": "attr@font",
+        "value": "14px Pretendard Variable"
+      },
+      "color": {
+        "func": "attr@textColor"
+      },
+      "lineHeight": 15,
+      "letterGap": 1.1,
+      "scrollbarStyle": {
+        "scrollbarColor": "rgb(35,121,207)",
+        "scrollbarGap": 0,
+        "scrollbarWidth": 4,
+        "scrollbarWidthAbsolute": false,
+        "scrollbarInteractiveSize": 6,
+        "scrollSpeed": 1,
+        "scrollable": false,
+        "pannable": true,
+        "autoHideScrollbar": false,
+        "momentumScroll": true,
+        "stopPropagation": false
+      }
+    },
+    {
+      "type": "ht.drawing.textBox",
+      "displayName": "textBox",
+      "rect": [
+        1.91737,
+        34.58606,
+        98.08263,
+        17.41394
+      ],
+      "onClick": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onClick.apply(this, arguments);\n}",
+      "onDoubleClick": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onDoubleClick.apply(this, arguments);\n}",
+      "onContextMenu": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onContextMenu.apply(this, arguments);\n}",
+      "onDown": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onDown.apply(this, arguments);\n}",
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onUp.apply(this, arguments);\n}",
+      "onMove": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onMove.apply(this, arguments);\n}",
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onEnter.apply(this, arguments);\n}",
+      "onHover": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onHover.apply(this, arguments);\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onLeave.apply(this, arguments);\n}",
+      "onBeginDrag": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onBeginDrag.apply(this, arguments);\n}",
+      "onDrag": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onDrag.apply(this, arguments);\n}",
+      "onEndDrag": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onEndDrag.apply(this, arguments);\n}",
+      "onScroll": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onScroll.apply(this, arguments);\n}",
+      "content": {
+        "func": "attr@value3",
+        "value": "VALUE"
+      },
+      "overflow": null,
+      "font": {
+        "func": "attr@font",
+        "value": "14px Pretendard Variable"
+      },
+      "color": {
+        "func": "attr@textColor"
+      },
+      "lineHeight": 15,
+      "letterGap": 1.1,
+      "scrollbarStyle": {
+        "scrollbarColor": "rgb(35,121,207)",
+        "scrollbarGap": 0,
+        "scrollbarWidth": 4,
+        "scrollbarWidthAbsolute": false,
+        "scrollbarInteractiveSize": 6,
+        "scrollSpeed": 1,
+        "scrollable": false,
+        "pannable": true,
+        "autoHideScrollbar": false,
+        "momentumScroll": true,
+        "stopPropagation": false
+      }
+    }
+  ]
+}

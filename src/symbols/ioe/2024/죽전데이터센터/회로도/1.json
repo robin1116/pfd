@@ -1,0 +1,60 @@
+{
+  "modified": "Tue Jul 22 2025 14:14:49 GMT+0900 (한국 표준시)",
+  "dataBindings": [
+    {
+      "attr": "lineColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(0,0,0)"
+    },
+    {
+      "attr": "borderWidth",
+      "valueType": "PositiveNumber",
+      "defaultValue": 1.5
+    }
+  ],
+  "width": 40,
+  "height": 40,
+  "comps": [
+    {
+      "type": "shape",
+      "borderWidth": {
+        "func": "attr@borderWidth",
+        "value": 1
+      },
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "rgb(0,0,0)"
+      },
+      "pixelPerfect": true,
+      "closePath": true,
+      "points": [
+        20.24631,
+        12.66112,
+        27.29217,
+        24.43931,
+        12.70783,
+        24.43931,
+        20.24631,
+        12.66112
+      ]
+    },
+    {
+      "type": "oval",
+      "borderWidth": {
+        "func": "attr@borderWidth",
+        "value": 1
+      },
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "rgb(0,0,0)"
+      },
+      "pixelPerfect": true,
+      "rect": [
+        3.92629,
+        3.92629,
+        32.14742,
+        32.14742
+      ]
+    }
+  ]
+}

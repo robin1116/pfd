@@ -1,0 +1,71 @@
+{
+  "modified": "Mon Feb 24 2025 12:13:52 GMT+0900 (한국 표준시)",
+  "dataBindings": [
+    {
+      "attr": "hover",
+      "valueType": "Boolean"
+    }
+  ],
+  "width": 25,
+  "height": 25,
+  "comps": [
+    {
+      "type": "roundRect",
+      "background": {
+        "func": "__ht__function(data, view) {\nif(data.a(\"hover\")){\r\n    return \"rgb(168,210,255)\";\r\n}\r\nreturn \"rgb(255,255,255)\";\n}",
+        "value": "rgb(168,210,255)"
+      },
+      "borderColor": "#979797",
+      "gradientPack": [
+        "linear",
+        0.5,
+        1.95668,
+        0.50045,
+        0.00029,
+        0,
+        "#6562A1",
+        1,
+        "rgb(255,255,255)"
+      ],
+      "cornerRadius": 3,
+      "rotation": -0.7854,
+      "rect": [
+        1.70546,
+        11.20466,
+        21.58908,
+        2.59069
+      ],
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\nview.getView().style.cursor = 'pointer';\r\ndata.a(\"hover\", true);\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\nview.getView().style.cursor = 'pointer';\r\ndata.a(\"hover\", false);\n}"
+    },
+    {
+      "type": "roundRect",
+      "background": {
+        "func": "__ht__function(data, view) {\nif(data.a(\"hover\")){\r\n    return \"rgb(168,210,255)\";\r\n}\r\nreturn \"rgb(255,255,255)\";\n}",
+        "value": "rgb(168,210,255)"
+      },
+      "borderColor": "#979797",
+      "gradientPack": [
+        "linear",
+        0.5,
+        1.95668,
+        0.50045,
+        0.00029,
+        0,
+        "#6562A1",
+        1,
+        "rgb(255,255,255)"
+      ],
+      "cornerRadius": 3,
+      "rotation": 0.7854,
+      "rect": [
+        1.70546,
+        11.20466,
+        21.58908,
+        2.59069
+      ],
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\nview.getView().style.cursor = 'pointer';\r\ndata.a(\"hover\", true);\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\nview.getView().style.cursor = 'pointer';\r\ndata.a(\"hover\", false);\n}"
+    }
+  ]
+}

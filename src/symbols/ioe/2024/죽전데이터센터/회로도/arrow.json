@@ -1,0 +1,43 @@
+{
+  "modified": "Tue Jul 22 2025 14:32:55 GMT+0900 (한국 표준시)",
+  "dataBindings": [
+    {
+      "attr": "lineColor",
+      "valueType": "Color"
+    }
+  ],
+  "width": 40,
+  "height": 20,
+  "comps": [
+    {
+      "type": "shape",
+      "background": {
+        "func": "attr@lineColor",
+        "value": "rgb(255,0,0)"
+      },
+      "borderWidth": 1.5,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "rgb(255,0,0)"
+      },
+      "borderCap": "round",
+      "borderGradientPack": "rgba(255,0,0,0)",
+      "shadow": true,
+      "shadowColor": "rgba(18,18,18,0.5)",
+      "shadowBlur": 15,
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "rotation": -0.7854,
+      "points": [
+        12.05539,
+        -1.18447,
+        12.05539,
+        14.81553,
+        28.89867,
+        15.6588,
+        12.05539,
+        -1.18447
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "modified": "Mon Jul 21 2025 14:33:53 GMT+0900 (한국 표준시)",
+  "dataBindings": [
+    {
+      "attr": "lineColor",
+      "valueType": "Color"
+    }
+  ],
+  "width": 40,
+  "height": 70,
+  "comps": [
+    {
+      "type": "shape",
+      "borderWidth": 1.5,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "rgb(0,0,0)"
+      },
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "rotation": 2.35619,
+      "points": [
+        12,
+        1.88564,
+        12,
+        17.88564,
+        28,
+        17.88564
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1.5,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "rgb(0,0,0)"
+      },
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "rotation": 2.35619,
+      "points": [
+        12,
+        4.85402,
+        12,
+        20.85402,
+        28,
+        20.85402
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1.5,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "rgb(0,0,0)"
+      },
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "rotation": -0.7854,
+      "points": [
+        12,
+        51.95119,
+        12,
+        67.95119,
+        28,
+        67.95119
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1.5,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "rgb(0,0,0)"
+      },
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "rotation": -0.7854,
+      "points": [
+        12,
+        48.381,
+        12,
+        64.381,
+        28,
+        64.381
+      ]
+    },
+    {
+      "type": "rect",
+      "borderWidth": 1.5,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "rgb(0,0,0)"
+      },
+      "rect": [
+        7.97518,
+        14.85273,
+        24.04963,
+        38.96238
+      ]
+    },
+    {
+      "type": "circle",
+      "background": {
+        "func": "attr@lineColor",
+        "value": "rgb(0,0,0)"
+      },
+      "borderColor": "rgb(0,0,0)",
+      "rect": [
+        14,
+        17.60047,
+        12,
+        12
+      ]
+    },
+    {
+      "type": "circle",
+      "background": {
+        "func": "attr@lineColor",
+        "value": "rgb(0,0,0)"
+      },
+      "borderColor": "rgb(0,0,0)",
+      "rect": [
+        14,
+        38.85474,
+        12,
+        12
+      ]
+    }
+  ]
+}

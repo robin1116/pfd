@@ -1,0 +1,229 @@
+{
+  "modified": "Tue Jul 22 2025 15:29:32 GMT+0900 (한국 표준시)",
+  "background": "rgb(71,71,71)",
+  "dataBindings": [
+    {
+      "attr": "borderStyle",
+      "valueType": "Object"
+    },
+    {
+      "attr": "title",
+      "valueType": "String"
+    },
+    {
+      "attr": "value1",
+      "valueType": "String"
+    },
+    {
+      "attr": "textColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(255,255,255)"
+    }
+  ],
+  "width": 100,
+  "height": 45,
+  "comps": [
+    {
+      "type": "ht.drawing.button",
+      "pixelPerfect": true,
+      "displayName": "button",
+      "rect": [
+        0,
+        0,
+        100,
+        45
+      ],
+      "onClick": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.buttonInteractor.onClick.apply(this, arguments);\n}",
+      "onDoubleClick": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.buttonInteractor.onDoubleClick.apply(this, arguments);\n}",
+      "onContextMenu": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.buttonInteractor.onContextMenu.apply(this, arguments);\n}",
+      "onDown": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.buttonInteractor.onDown.apply(this, arguments);\n}",
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.buttonInteractor.onUp.apply(this, arguments);\n}",
+      "onMove": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.buttonInteractor.onMove.apply(this, arguments);\n}",
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.buttonInteractor.onEnter.apply(this, arguments);\n}",
+      "onHover": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.buttonInteractor.onHover.apply(this, arguments);\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.buttonInteractor.onLeave.apply(this, arguments);\n}",
+      "onBeginDrag": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.buttonInteractor.onBeginDrag.apply(this, arguments);\n}",
+      "onDrag": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.buttonInteractor.onDrag.apply(this, arguments);\n}",
+      "onEndDrag": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.buttonInteractor.onEndDrag.apply(this, arguments);\n}",
+      "onScroll": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.buttonInteractor.onScroll.apply(this, arguments);\n}",
+      "label": " ",
+      "background": null,
+      "labelStyle": {
+        "visible": false,
+        "color": "rgb(255,255,255)",
+        "font": "14px arial, sans-serif",
+        "shadowBlur": 6,
+        "shadowOffsetX": 3,
+        "shadowOffsetY": 3
+      },
+      "borderStyle": {
+        "func": "attr@borderStyle",
+        "value": {
+          "color": [
+            "linear",
+            0.5,
+            0,
+            0.5,
+            1,
+            0,
+            "rgb(194,194,194)",
+            1,
+            "rgb(214,214,214)"
+          ],
+          "width": 1,
+          "dashOffset": 0,
+          "cap": "butt",
+          "join": "round",
+          "cornerRadius": [
+            3
+          ]
+        }
+      },
+      "hoverStyle": {
+        "borderColor": [
+          "linear",
+          0.5,
+          0,
+          0.5,
+          1,
+          0,
+          "rgb(184,179,171)",
+          1,
+          "rgb(161,153,143)"
+        ],
+        "background": [
+          "linear",
+          0.5,
+          0,
+          0.5,
+          1,
+          0.0087,
+          "rgb(51,51,51)",
+          1,
+          "rgb(140,140,140)"
+        ],
+        "scale": 1,
+        "cursor": "pointer"
+      },
+      "activeStyle": {
+        "borderColor": [
+          "linear",
+          0.5,
+          0,
+          0.5,
+          1,
+          0,
+          "rgb(194,161,189)",
+          1,
+          "rgb(177,171,184)"
+        ],
+        "background": [
+          "linear",
+          0.5,
+          0,
+          0.5,
+          1,
+          0,
+          "rgb(140,140,140)",
+          0.9913,
+          "rgb(51,51,51)"
+        ],
+        "scale": 1
+      }
+    },
+    {
+      "type": "ht.drawing.textBox",
+      "displayName": "textBox",
+      "rect": [
+        0.95869,
+        2.95624,
+        98.08263,
+        17.41394
+      ],
+      "onClick": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onClick.apply(this, arguments);\n}",
+      "onDoubleClick": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onDoubleClick.apply(this, arguments);\n}",
+      "onContextMenu": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onContextMenu.apply(this, arguments);\n}",
+      "onDown": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onDown.apply(this, arguments);\n}",
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onUp.apply(this, arguments);\n}",
+      "onMove": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onMove.apply(this, arguments);\n}",
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onEnter.apply(this, arguments);\n}",
+      "onHover": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onHover.apply(this, arguments);\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onLeave.apply(this, arguments);\n}",
+      "onBeginDrag": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onBeginDrag.apply(this, arguments);\n}",
+      "onDrag": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onDrag.apply(this, arguments);\n}",
+      "onEndDrag": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onEndDrag.apply(this, arguments);\n}",
+      "onScroll": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onScroll.apply(this, arguments);\n}",
+      "content": {
+        "func": "attr@title",
+        "value": "FROM"
+      },
+      "overflow": null,
+      "font": "13px Pretendard Variable",
+      "color": "rgb(255,255,255)",
+      "align": "center",
+      "lineHeight": 15,
+      "letterGap": 1.2,
+      "scrollbarStyle": {
+        "scrollbarColor": "rgb(35,121,207)",
+        "scrollbarGap": 0,
+        "scrollbarWidth": 4,
+        "scrollbarWidthAbsolute": false,
+        "scrollbarInteractiveSize": 6,
+        "scrollSpeed": 1,
+        "scrollable": false,
+        "pannable": true,
+        "autoHideScrollbar": false,
+        "momentumScroll": true,
+        "stopPropagation": false
+      }
+    },
+    {
+      "type": "ht.drawing.textBox",
+      "displayName": "textBox",
+      "rect": [
+        3.18636,
+        22.5,
+        93.6273,
+        17.41394
+      ],
+      "onClick": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onClick.apply(this, arguments);\n}",
+      "onDoubleClick": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onDoubleClick.apply(this, arguments);\n}",
+      "onContextMenu": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onContextMenu.apply(this, arguments);\n}",
+      "onDown": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onDown.apply(this, arguments);\n}",
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onUp.apply(this, arguments);\n}",
+      "onMove": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onMove.apply(this, arguments);\n}",
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onEnter.apply(this, arguments);\n}",
+      "onHover": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onHover.apply(this, arguments);\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onLeave.apply(this, arguments);\n}",
+      "onBeginDrag": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onBeginDrag.apply(this, arguments);\n}",
+      "onDrag": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onDrag.apply(this, arguments);\n}",
+      "onEndDrag": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onEndDrag.apply(this, arguments);\n}",
+      "onScroll": "__ht__function(event, data, view, point, width, height) {\nreturn ht.drawing.textBoxInteractor.onScroll.apply(this, arguments);\n}",
+      "content": {
+        "func": "attr@value1",
+        "value": "A-HV CT-1-222"
+      },
+      "overflow": "scale",
+      "font": "13px Pretendard Variable",
+      "color": {
+        "func": "attr@textColor",
+        "value": "rgb(245,245,245)"
+      },
+      "align": "center",
+      "lineHeight": 15,
+      "scrollbarStyle": {
+        "scrollbarColor": "rgb(35,121,207)",
+        "scrollbarGap": 0,
+        "scrollbarWidth": 4,
+        "scrollbarWidthAbsolute": false,
+        "scrollbarInteractiveSize": 6,
+        "scrollSpeed": 1,
+        "scrollable": false,
+        "pannable": true,
+        "autoHideScrollbar": false,
+        "momentumScroll": true,
+        "stopPropagation": false
+      }
+    }
+  ]
+}
